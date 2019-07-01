@@ -10797,8 +10797,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="76.2" y="-22.86" size="2.54" layer="97">mitchell nelke</text>
-<text x="104.14" y="-22.86" size="2.54" layer="97">OPEnS Lab OSU</text>
+<text x="76.2" y="-22.86" size="2.54" layer="97">James Yang, Bao Nguyen</text>
+<text x="132.08" y="-22.86" size="2.54" layer="97">OPEnS Lab OSU</text>
 <text x="106.68" y="-43.18" size="2.54" layer="97">1</text>
 <text x="170.18" y="-43.18" size="2.54" layer="97">1</text>
 </plain>
@@ -11160,7 +11160,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="187.96" y="-66.04" size="2.54" layer="97">2</text>
 <text x="248.92" y="-66.04" size="2.54" layer="97">1</text>
-<text x="157.48" y="-48.26" size="2.54" layer="97">mitchell nelke OPEnS Lab OSU</text>
+<text x="157.48" y="-48.26" size="2.54" layer="97">James Yang, Bao Nguyen OPEnS Lab OSU</text>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="-2.54" y="111.76" smashed="yes">
