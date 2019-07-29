@@ -111,6 +111,10 @@
 </symbols>
 <devicesets>
 <deviceset name="POLOLU_3.3V">
+<description>Size 0.7" x 0.8" x 0.345"
+
+
+Created by James Yang OPEnS Lab -- https://www.pololu.com/product/3786</description>
 <gates>
 <gate name="G$1" symbol="POLOLU_3.3V" x="-7.62" y="7.62"/>
 </gates>
