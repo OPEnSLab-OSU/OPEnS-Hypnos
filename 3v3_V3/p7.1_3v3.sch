@@ -7714,8 +7714,6 @@ With round pins</description>
 </classes>
 <parts>
 <part name="FEATHER" library="bluefruit_m0" deviceset="BLUEFRUIT_M0" device=""/>
-<part name="SHDN" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="READ" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="3V|5V" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RTC" library="power8" deviceset="DS3231ST&amp;R" device=""/>
@@ -7749,20 +7747,12 @@ With round pins</description>
 <text x="604.52" y="-563.88" size="2.54" layer="97" font="vector" rot="R90">Decoupling</text>
 <text x="576.58" y="-652.78" size="1.778" layer="91">Manually Wake Up (Testing purpose_)</text>
 <text x="645.16" y="-680.72" size="1.778" layer="91">Manually probing headers (testing purpose)</text>
-<text x="708.66" y="-655.32" size="1.778" layer="91">30k</text>
-<text x="739.14" y="-632.46" size="1.778" layer="91">30k</text>
+<text x="713.74" y="-650.24" size="1.778" layer="91">30k</text>
+<text x="744.22" y="-627.38" size="1.778" layer="91">30k</text>
 </plain>
 <instances>
 <instance part="FEATHER" gate="G$1" x="655.32" y="-657.86" smashed="yes">
 <attribute name="NAME" x="655.828" y="-615.95" size="1.778" layer="95"/>
-</instance>
-<instance part="SHDN" gate="1" x="563.88" y="-642.62" smashed="yes">
-<attribute name="NAME" x="561.34" y="-640.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="561.34" y="-646.43" size="1.778" layer="96"/>
-</instance>
-<instance part="READ" gate="1" x="568.96" y="-640.08" smashed="yes">
-<attribute name="NAME" x="566.42" y="-637.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="566.42" y="-643.89" size="1.778" layer="96"/>
 </instance>
 <instance part="3V|5V" gate="G$1" x="657.86" y="-670.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="664.21" y="-676.275" size="1.778" layer="95" rot="R180"/>
@@ -7813,32 +7803,32 @@ With round pins</description>
 <instance part="+3V1" gate="G$1" x="553.72" y="-594.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="556.26" y="-599.44" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="5VRAIL" gate="1" x="690.88" y="-647.7" smashed="yes">
-<attribute name="NAME" x="688.34" y="-645.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="688.34" y="-651.51" size="1.778" layer="96"/>
+<instance part="5VRAIL" gate="1" x="706.12" y="-642.62" smashed="yes">
+<attribute name="NAME" x="703.58" y="-640.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="703.58" y="-646.43" size="1.778" layer="96"/>
 </instance>
-<instance part="3VRAIL" gate="1" x="683.26" y="-650.24" smashed="yes">
-<attribute name="NAME" x="680.72" y="-650.24" size="1.778" layer="95"/>
-<attribute name="VALUE" x="680.72" y="-654.05" size="1.778" layer="96"/>
+<instance part="3VRAIL" gate="1" x="703.58" y="-645.16" smashed="yes">
+<attribute name="NAME" x="701.04" y="-645.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="701.04" y="-648.97" size="1.778" layer="96"/>
 </instance>
-<instance part="PMOS" gate="G$1" x="723.9" y="-650.24" smashed="yes"/>
-<instance part="GND11" gate="1" x="706.12" y="-662.94" smashed="yes">
-<attribute name="VALUE" x="703.58" y="-665.48" size="1.778" layer="96"/>
+<instance part="PMOS" gate="G$1" x="728.98" y="-645.16" smashed="yes"/>
+<instance part="GND11" gate="1" x="711.2" y="-657.86" smashed="yes">
+<attribute name="VALUE" x="708.66" y="-660.4" size="1.778" layer="96"/>
 </instance>
-<instance part="30K_" gate="G$1" x="706.12" y="-655.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="707.6186" y="-651.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="702.818" y="-651.51" size="1.778" layer="96" rot="R270"/>
+<instance part="30K_" gate="G$1" x="711.2" y="-650.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="712.6986" y="-646.43" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="707.898" y="-646.43" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="723.9" y="-637.54" smashed="yes">
-<attribute name="VALUE" x="721.36" y="-642.62" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V2" gate="G$1" x="728.98" y="-632.46" smashed="yes">
+<attribute name="VALUE" x="726.44" y="-637.54" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PMOS_" gate="G$1" x="754.38" y="-627.38" smashed="yes"/>
-<instance part="GND8" gate="1" x="736.6" y="-640.08" smashed="yes">
-<attribute name="VALUE" x="734.06" y="-642.62" size="1.778" layer="96"/>
+<instance part="PMOS_" gate="G$1" x="759.46" y="-622.3" smashed="yes"/>
+<instance part="GND8" gate="1" x="741.68" y="-635" smashed="yes">
+<attribute name="VALUE" x="739.14" y="-637.54" size="1.778" layer="96"/>
 </instance>
-<instance part="30K" gate="G$1" x="736.6" y="-632.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="738.0986" y="-628.65" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="733.298" y="-628.65" size="1.778" layer="96" rot="R270"/>
+<instance part="30K" gate="G$1" x="741.68" y="-627.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="743.1786" y="-623.57" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="738.378" y="-623.57" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="MS1" gate="G$1" x="822.96" y="-629.92" smashed="yes" rot="MR270"/>
 <instance part="GND2" gate="1" x="868.68" y="-647.7" smashed="yes">
@@ -7884,13 +7874,6 @@ With round pins</description>
 <wire x1="784.86" y1="-655.32" x2="779.78" y2="-655.32" width="0.1524" layer="91"/>
 <label x="779.78" y="-655.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="MS1" gate="G$1" pin="GPIO12"/>
-</segment>
-</net>
-<net name="SHDN_FEATHER" class="3">
-<segment>
-<pinref part="SHDN" gate="1" pin="1"/>
-<wire x1="558.8" y1="-642.62" x2="541.02" y2="-642.62" width="0.1524" layer="91"/>
-<label x="541.02" y="-642.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7981,13 +7964,6 @@ With round pins</description>
 <wire x1="868.68" y1="-642.62" x2="868.68" y2="-645.16" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="MS1" gate="G$1" pin="GND"/>
-</segment>
-</net>
-<net name="RTC_READ" class="3">
-<segment>
-<pinref part="READ" gate="1" pin="1"/>
-<wire x1="563.88" y1="-640.08" x2="543.56" y2="-640.08" width="0.1524" layer="91"/>
-<label x="543.56" y="-640.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DO" class="0">
@@ -8106,7 +8082,7 @@ With round pins</description>
 </segment>
 <segment>
 <pinref part="PMOS" gate="G$1" pin="S"/>
-<wire x1="723.9" y1="-645.16" x2="723.9" y2="-640.08" width="0.1524" layer="91"/>
+<wire x1="728.98" y1="-640.08" x2="728.98" y2="-635" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -8121,20 +8097,6 @@ With round pins</description>
 <junction x="746.76" y="-548.64"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="FEATHER" gate="G$1" pin="6"/>
-<wire x1="675.64" y1="-647.7" x2="685.8" y2="-647.7" width="0.1524" layer="91"/>
-<pinref part="5VRAIL" gate="1" pin="1"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="FEATHER" gate="G$1" pin="5"/>
-<wire x1="675.64" y1="-650.24" x2="678.18" y2="-650.24" width="0.1524" layer="91"/>
-<pinref part="3VRAIL" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="5VUSB" class="0">
 <segment>
 <pinref part="FEATHER" gate="G$1" pin="USB"/>
@@ -8143,14 +8105,14 @@ With round pins</description>
 </segment>
 <segment>
 <pinref part="PMOS_" gate="G$1" pin="S"/>
-<wire x1="754.38" y1="-622.3" x2="754.38" y2="-617.22" width="0.1524" layer="91"/>
-<label x="754.38" y="-617.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="759.46" y1="-617.22" x2="759.46" y2="-612.14" width="0.1524" layer="91"/>
+<label x="759.46" y="-612.14" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="3VRAIL" class="0">
 <segment>
-<label x="731.52" y="-655.32" size="1.778" layer="95" xref="yes"/>
-<wire x1="731.52" y1="-655.32" x2="723.9" y2="-655.32" width="0.1524" layer="91"/>
+<label x="736.6" y="-650.24" size="1.778" layer="95" xref="yes"/>
+<wire x1="736.6" y1="-650.24" x2="728.98" y2="-650.24" width="0.1524" layer="91"/>
 <pinref part="PMOS" gate="G$1" pin="D"/>
 </segment>
 <segment>
@@ -8168,27 +8130,27 @@ With round pins</description>
 <segment>
 <pinref part="PMOS" gate="G$1" pin="G"/>
 <pinref part="30K_" gate="G$1" pin="1"/>
-<wire x1="706.12" y1="-650.24" x2="713.74" y2="-650.24" width="0.1524" layer="91"/>
+<wire x1="711.2" y1="-645.16" x2="718.82" y2="-645.16" width="0.1524" layer="91"/>
 <pinref part="3VRAIL" gate="1" pin="2"/>
-<wire x1="688.34" y1="-650.24" x2="706.12" y2="-650.24" width="0.1524" layer="91"/>
-<junction x="706.12" y="-650.24"/>
+<wire x1="708.66" y1="-645.16" x2="711.2" y2="-645.16" width="0.1524" layer="91"/>
+<junction x="711.2" y="-645.16"/>
 </segment>
 </net>
 <net name="5VRAIL" class="0">
 <segment>
 <pinref part="30K" gate="G$1" pin="1"/>
-<wire x1="736.6" y1="-627.38" x2="744.22" y2="-627.38" width="0.1524" layer="91"/>
+<wire x1="741.68" y1="-622.3" x2="749.3" y2="-622.3" width="0.1524" layer="91"/>
 <pinref part="PMOS_" gate="G$1" pin="G"/>
 <pinref part="5VRAIL" gate="1" pin="2"/>
-<wire x1="695.96" y1="-647.7" x2="708.66" y2="-647.7" width="0.1524" layer="91"/>
-<wire x1="708.66" y1="-647.7" x2="708.66" y2="-627.38" width="0.1524" layer="91"/>
-<wire x1="708.66" y1="-627.38" x2="736.6" y2="-627.38" width="0.1524" layer="91"/>
-<junction x="736.6" y="-627.38"/>
+<wire x1="711.2" y1="-642.62" x2="713.74" y2="-642.62" width="0.1524" layer="91"/>
+<wire x1="713.74" y1="-642.62" x2="713.74" y2="-622.3" width="0.1524" layer="91"/>
+<wire x1="713.74" y1="-622.3" x2="741.68" y2="-622.3" width="0.1524" layer="91"/>
+<junction x="741.68" y="-622.3"/>
 </segment>
 <segment>
 <pinref part="PMOS_" gate="G$1" pin="D"/>
-<wire x1="754.38" y1="-632.46" x2="754.38" y2="-635" width="0.1524" layer="91"/>
-<label x="754.38" y="-635" size="1.778" layer="95" xref="yes"/>
+<wire x1="759.46" y1="-627.38" x2="759.46" y2="-629.92" width="0.1524" layer="91"/>
+<label x="759.46" y="-629.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="USB"/>
@@ -8201,40 +8163,6 @@ With round pins</description>
 <wire x1="665.48" y1="-670.56" x2="668.02" y2="-668.02" width="0.1524" layer="91"/>
 <wire x1="668.02" y1="-668.02" x2="670.56" y2="-668.02" width="0.1524" layer="91"/>
 <label x="670.56" y="-668.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SHDN_FEATHER_OUT" class="0">
-<segment>
-<pinref part="SHDN" gate="1" pin="2"/>
-<wire x1="568.96" y1="-642.62" x2="579.12" y2="-642.62" width="0.1524" layer="91"/>
-<label x="579.12" y="-642.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="FEATHER" gate="G$1" pin="A5"/>
-<wire x1="652.78" y1="-642.62" x2="647.7" y2="-642.62" width="0.1524" layer="91"/>
-<label x="647.7" y="-642.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="828.04" y1="-657.86" x2="858.52" y2="-657.86" width="0.1524" layer="91"/>
-<label x="858.52" y="-657.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="MS1" gate="G$1" pin="GPIOA5"/>
-</segment>
-</net>
-<net name="RTC_READ_OUT" class="0">
-<segment>
-<pinref part="READ" gate="1" pin="2"/>
-<wire x1="574.04" y1="-640.08" x2="584.2" y2="-640.08" width="0.1524" layer="91"/>
-<label x="584.2" y="-640.08" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="FEATHER" gate="G$1" pin="A4"/>
-<wire x1="652.78" y1="-640.08" x2="647.7" y2="-640.08" width="0.1524" layer="91"/>
-<label x="647.7" y="-640.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="828.04" y1="-655.32" x2="858.52" y2="-655.32" width="0.1524" layer="91"/>
-<label x="858.52" y="-655.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="MS1" gate="G$1" pin="GPIOA4"/>
 </segment>
 </net>
 <net name="VBAT" class="3">
@@ -8376,18 +8304,6 @@ With round pins</description>
 <label x="782.32" y="-647.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="MS1" gate="G$1" pin="GPIO6"/>
-<wire x1="784.86" y1="-665.48" x2="782.32" y2="-665.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="MS1" gate="G$1" pin="GPIO5"/>
-<wire x1="784.86" y1="-668.02" x2="782.32" y2="-668.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="13" class="0">
 <segment>
 <pinref part="FEATHER" gate="G$1" pin="13"/>
@@ -8410,6 +8326,41 @@ With round pins</description>
 <pinref part="MS1" gate="G$1" pin="GPIO11"/>
 <wire x1="784.86" y1="-657.86" x2="782.32" y2="-657.86" width="0.1524" layer="91"/>
 <label x="779.78" y="-657.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="FEATHER" gate="G$1" pin="6"/>
+<wire x1="675.64" y1="-647.7" x2="680.72" y2="-647.7" width="0.1524" layer="91"/>
+<label x="680.72" y="-647.7" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="5VRAIL" gate="1" pin="1"/>
+<wire x1="701.04" y1="-642.62" x2="695.96" y2="-642.62" width="0.1524" layer="91"/>
+<label x="695.96" y="-642.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MS1" gate="G$1" pin="GPIO6"/>
+<wire x1="784.86" y1="-665.48" x2="782.32" y2="-665.48" width="0.1524" layer="91"/>
+<label x="782.32" y="-665.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="3V" class="0">
+<segment>
+<pinref part="FEATHER" gate="G$1" pin="5"/>
+<wire x1="675.64" y1="-650.24" x2="680.72" y2="-650.24" width="0.1524" layer="91"/>
+<label x="680.72" y="-650.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="3VRAIL" gate="1" pin="1"/>
+<wire x1="698.5" y1="-645.16" x2="698.5" y2="-647.7" width="0.1524" layer="91"/>
+<wire x1="698.5" y1="-647.7" x2="695.96" y2="-647.7" width="0.1524" layer="91"/>
+<label x="695.96" y="-647.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MS1" gate="G$1" pin="GPIO5"/>
+<wire x1="784.86" y1="-668.02" x2="782.32" y2="-668.02" width="0.1524" layer="91"/>
+<label x="782.32" y="-668.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
