@@ -11,6 +11,6 @@ However, during deep sleep, the 3v3 volt regulator is still providing power to o
 MOSFET circuitry is introduced in 3.3-volt version V3 to cut down power to peripherals. Additional RTC and microSD for accurate timekeeping and data logging.
 
 
-	* `3.3 Volt_V3` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit, Feather deep sleep
-	* `12 Volt_V7.2` Power + RTC convert 12V to 5V. Using D-flipflop circuit to store state. Complete Feather shutdown
+* `3.3 Volt_V3` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit, Feather deep sleep
+* `12 Volt_V7.2` Power + RTC convert 12V to 5V. Using D-flipflop circuit to store state. Complete Feather shutdown
 
