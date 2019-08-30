@@ -15,7 +15,12 @@ OPEnS-RTC-1.2:		2019
 	Designed for general purpose, run on Vbat, with RTC and SD card headers
 	Major issue:	NOT gates draw too much power in sleep
 			The footprint is too large, too many components
-			Require external SD card
+			Require external SD card module
+
+p7.2_3v3		2019
+	Designed for general purpose, run on Vbat, with RTC and SD card headers, using D-flipflop circuitry
+	Major issue:	Feather can now goes into efficient deepsleep, no need to keep powering the D-flipflop
+			Require external SD card module
 
 Baos_Board:		2019
 	Named by James, original idea by Mitch designed for eDNA that runs on 12V battery
