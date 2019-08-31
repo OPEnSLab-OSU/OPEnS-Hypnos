@@ -13,4 +13,5 @@ MOSFET circuitry is introduced in 3.3-volt version V3 to cut down power to perip
 
 * `3.3 Volt_V3` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit, Feather deep sleep
 * `12 Volt_V7.2` Power + RTC convert 12V to 5V. Using D-flipflop circuit to store state. Complete Feather shutdown
-
+* `eDNA.lbr` Eagle library that has the push button
+* `powerboard.lbr` Eagle library that has just FeatherWing pin layout
