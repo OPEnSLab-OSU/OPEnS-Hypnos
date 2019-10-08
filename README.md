@@ -9,6 +9,17 @@ However, during deep sleep, the 3v3 volt regulator is still providing power to o
 MOSFET circuitry is introduced in 3.3-volt version V3 to cut down power to peripherals. Additional RTC and microSD for accurate timekeeping and data logging.
 
 
-* `Hypnos` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit, Feather deep sleep
-* `eDNA.lbr` Eagle library that has the push button
+* `Hypnos` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit and Feather deep sleep
+* `eDNA.lbr` Eagle library that has the push button, MOSFET footprints
 * `powerboard.lbr` Eagle library that has FeatherWing pin layout
+
+Update from Version 1:
+* 2 LEDs with current limiting resistors
+* RTC is now powered from 3V3 instead of Vbat (using power from Vbat turns on Feather Battery Charger LED)
+* Pull up resistor for SD chip select just like adalogger
+* Rounded PCB corner
+* Move the reset button to the middle of the board - mechanically more stable
+* Add solder jumper for RTC-INT, normally connected
+* Use all logic MOSFET instead of one BJT for higher voltage signal control
+
+Note: the LEDs are lower power (rated at 2mA instead of 20mA)
