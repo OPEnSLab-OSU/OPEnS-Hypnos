@@ -6,8 +6,7 @@ In the early time of development, the Feather needs to be shut down completely d
 A circuit was designed to keep the state of the system, and a real-time clock can change the state and wake everything back up.
 After Adafruit released new firmware for Feather M0 that allow microamp sleep current, complete shutdown of the Feather seem unnecessary.
 However, during deep sleep, the 3v3 volt regulator is still providing power to other peripherals. 
-MOSFET circuitry is introduced in 3.3-volt version V3 to cut down power to peripherals. Additional RTC and microSD for accurate timekeeping and data logging.
-
+MOSFET circuitry is introduced in HYPNOS to cut down power to peripherals. Additional RTC and microSD for accurate timekeeping and data logging.
 
 * `Hypnos` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit and Feather deep sleep
 * `eDNA.lbr` Eagle library that has the push button, MOSFET footprints
