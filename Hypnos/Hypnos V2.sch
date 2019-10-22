@@ -3253,8 +3253,8 @@ https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?qs=%2Fha2pyFaduiYmAh2YH01Ejo
 <devices>
 <device name="" package="SOT23-S">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
