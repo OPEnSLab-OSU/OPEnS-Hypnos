@@ -9,6 +9,7 @@ However, during deep sleep, the 3v3 volt regulator is still providing power to o
 MOSFET circuitry is introduced in HYPNOS to cut down power to peripherals. Additional RTC and microSD for accurate timekeeping and data logging.
 
 * `Hypnos` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and Vbus rail. Using MOSFET circuit and Feather deep sleep
+* `Hypnos 12V` Upgraded from regular Hypnos. Can control one more rail of higher voltage (9-24V) at max 0.7A.
 * `eDNA.lbr` Eagle library that has the push button, MOSFET footprints
 * `powerboard.lbr` Eagle library that has FeatherWing pin layout
 
