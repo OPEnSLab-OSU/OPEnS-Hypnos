@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9862,9 +9862,6 @@ unfilled</description>
 <text x="828.04" y="-662.94" size="1.778" layer="91" grouprefs="CONTROLLED_LOGIC">Manually probing headers (testing purpose)</text>
 <text x="713.74" y="-660.4" size="1.778" layer="91" grouprefs="MOSFET_CIRCUITRY">30k</text>
 <text x="721.36" y="-637.54" size="1.778" layer="91" grouprefs="MOSFET_CIRCUITRY">30k</text>
-<text x="769.62" y="-579.12" size="2.54" layer="91">Change from V1 to V2:
-RTC is powered with 3v3 instead of Vbat
-Add red LED if rail are switched on</text>
 <text x="756.92" y="-665.48" size="1.778" layer="97">Voltage drop: 1.8V
 Should drive at 0.5mA</text>
 <text x="772.16" y="-635" size="1.778" layer="91">(5V - 1.7V)/0.5mA</text>
@@ -10239,11 +10236,8 @@ Should drive at 0.5mA</text>
 </segment>
 <segment>
 <pinref part="CS" gate="G$1" pin="2"/>
-<wire x1="688.34" y1="-645.16" x2="698.5" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="688.34" y1="-645.16" x2="701.04" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <label x="701.04" y="-645.16" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="698.5" y1="-645.16" x2="701.04" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="698.5" y1="-637.54" x2="698.5" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="698.5" y="-645.16" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="SCL" class="0">

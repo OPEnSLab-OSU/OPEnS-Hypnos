@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14036,16 +14036,21 @@ unfilled</description>
 <plain>
 <text x="604.52" y="-563.88" size="2.54" layer="97" font="vector" rot="R90" grouprefs="REAL_TIME_CLOCK">Decoupling</text>
 <text x="728.98" y="-548.64" size="1.778" layer="91" grouprefs="REAL_TIME_CLOCK">Manually Wake Up (Testing purpose_)</text>
-<text x="833.12" y="-662.94" size="1.778" layer="91" grouprefs="CONTROLLED_LOGIC">Manually probing headers (testing purpose)</text>
+<text x="828.04" y="-662.94" size="1.778" layer="91" grouprefs="CONTROLLED_LOGIC">Manually probing headers (testing purpose)</text>
 <text x="713.74" y="-680.72" size="1.778" layer="91" grouprefs="MOSFET_CIRCUITRY">30k</text>
+<text x="769.62" y="-579.12" size="2.54" layer="91">Change from V1 to V2:
+RTC is powered with 3v3 instead of Vbat
+Add red LED if rail are switched on</text>
 <text x="782.32" y="-619.76" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">S</text>
 <text x="782.32" y="-612.14" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">D</text>
+<text x="769.62" y="-591.82" size="2.54" layer="91" grouprefs="MOSFET_CIRCUITRY">Handle Max 0.7 A</text>
+<text x="711.2" y="-591.82" size="2.54" layer="91" grouprefs="MOSFET_CIRCUITRY">Handle Max 0.4 A</text>
 <text x="698.5" y="-688.34" size="2.54" layer="91">Handle Max 0.4 A</text>
 </plain>
 <instances>
-<instance part="3V|5V" gate="G$1" x="840.74" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="NAME" x="834.39" y="-652.145" size="1.778" layer="95"/>
-<attribute name="VALUE" x="834.39" y="-662.94" size="1.778" layer="96"/>
+<instance part="3V|5V" gate="G$1" x="835.66" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="NAME" x="829.31" y="-652.145" size="1.778" layer="95"/>
+<attribute name="VALUE" x="829.31" y="-662.94" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="622.3" y="-627.38" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="619.76" y="-629.92" size="1.778" layer="96"/>
@@ -14093,7 +14098,7 @@ unfilled</description>
 <attribute name="NAME" x="720.3186" y="-631.19" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="715.518" y="-631.19" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="MS1" gate="G$1" x="871.22" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC"/>
+<instance part="MS1" gate="G$1" x="866.14" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC"/>
 <instance part="+3V2" gate="G$1" x="607.06" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="604.52" y="-619.76" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -14105,8 +14110,8 @@ unfilled</description>
 <instance part="GND1" gate="1" x="739.14" y="-637.54" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="739.14" y="-637.794" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND2" gate="1" x="899.16" y="-617.22" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="VALUE" x="896.62" y="-619.76" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="894.08" y="-617.22" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="VALUE" x="891.54" y="-619.76" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="853.44" y="-576.58" smashed="yes" grouprefs="SDCARD">
 <attribute name="VALUE" x="850.9" y="-579.12" size="1.778" layer="96"/>
@@ -14240,8 +14245,8 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="VBAT"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-614.68" x2="828.04" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-614.68" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-614.68" x2="822.96" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-614.68" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
@@ -14333,8 +14338,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GND"/>
-<wire x1="876.3" y1="-612.14" x2="899.16" y2="-612.14" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="899.16" y1="-612.14" x2="899.16" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-612.14" x2="894.08" y2="-612.14" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="894.08" y1="-612.14" x2="894.08" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14423,8 +14428,8 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOMISO"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-635" x2="906.78" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-635" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-635" x2="901.7" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="901.7" y="-635" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIOMISO"/>
 </segment>
 </net>
@@ -14440,8 +14445,8 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOMOSI"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-632.46" x2="906.78" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-632.46" x2="901.7" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="901.7" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIOMOSI"/>
 </segment>
 </net>
@@ -14457,8 +14462,8 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOSCK"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-629.92" x2="906.78" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-629.92" x2="901.7" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="901.7" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIOSCK"/>
 </segment>
 </net>
@@ -14490,8 +14495,8 @@ unfilled</description>
 <pinref part="RTC" gate="A" pin="SCL"/>
 </segment>
 <segment>
-<label x="828.04" y="-640.08" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="833.12" y1="-640.08" x2="828.04" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-640.08" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-640.08" x2="822.96" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIOSCL"/>
 </segment>
 </net>
@@ -14511,8 +14516,8 @@ unfilled</description>
 <pinref part="RTC" gate="A" pin="SDA"/>
 </segment>
 <segment>
-<label x="828.04" y="-642.62" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="833.12" y1="-642.62" x2="828.04" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-642.62" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-642.62" x2="822.96" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIOSDA"/>
 </segment>
 </net>
@@ -14582,8 +14587,8 @@ unfilled</description>
 <net name="3VRAIL" class="0">
 <segment>
 <pinref part="MS1" gate="G$1" pin="3V"/>
-<wire x1="876.3" y1="-607.06" x2="896.62" y2="-607.06" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="896.62" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-607.06" x2="891.54" y2="-607.06" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="891.54" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="PMOS2" gate="G$1" pin="D"/>
@@ -14592,8 +14597,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="3V|5V" gate="G$1" pin="1"/>
-<wire x1="848.36" y1="-657.86" x2="853.44" y2="-657.86" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="853.44" y="-657.86" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="843.28" y1="-657.86" x2="848.36" y2="-657.86" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="848.36" y="-657.86" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -14627,13 +14632,13 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="USB"/>
-<wire x1="833.12" y1="-619.76" x2="828.04" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-619.76" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-619.76" x2="822.96" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-619.76" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="3V|5V" gate="G$1" pin="2"/>
-<wire x1="848.36" y1="-655.32" x2="853.44" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="853.44" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="843.28" y1="-655.32" x2="848.36" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="848.36" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -14650,8 +14655,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="!RESET"/>
-<wire x1="876.3" y1="-604.52" x2="881.38" y2="-604.52" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-604.52" x2="876.3" y2="-604.52" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="ARF" class="0">
@@ -14662,8 +14667,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="AREF"/>
-<wire x1="876.3" y1="-609.6" x2="881.38" y2="-609.6" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-609.6" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-609.6" x2="876.3" y2="-609.6" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-609.6" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -14674,8 +14679,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA0"/>
-<wire x1="876.3" y1="-614.68" x2="881.38" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-614.68" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-614.68" x2="876.3" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-614.68" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -14686,8 +14691,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA1"/>
-<wire x1="876.3" y1="-617.22" x2="881.38" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-617.22" x2="876.3" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -14698,8 +14703,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA2"/>
-<wire x1="876.3" y1="-619.76" x2="881.38" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-619.76" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-619.76" x2="876.3" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-619.76" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -14710,8 +14715,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA3"/>
-<wire x1="876.3" y1="-622.3" x2="881.38" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-622.3" x2="876.3" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="0RX" class="0">
@@ -14722,8 +14727,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIORX"/>
-<wire x1="876.3" y1="-637.54" x2="881.38" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-637.54" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-637.54" x2="876.3" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-637.54" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="1TX" class="0">
@@ -14734,8 +14739,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOTX"/>
-<wire x1="876.3" y1="-640.08" x2="881.38" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-640.08" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-640.08" x2="876.3" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-640.08" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="DFU" class="0">
@@ -14746,15 +14751,15 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="NC"/>
-<wire x1="876.3" y1="-642.62" x2="881.38" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-642.62" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-642.62" x2="876.3" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-642.62" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="9" class="0">
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIO9"/>
-<wire x1="833.12" y1="-632.46" x2="828.04" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-632.46" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-632.46" x2="822.96" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-632.46" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="MS2" gate="G$1" pin="GPIO9"/>
@@ -14770,8 +14775,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="EN"/>
-<wire x1="833.12" y1="-617.22" x2="830.58" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="830.58" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-617.22" x2="825.5" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="825.5" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
@@ -14782,13 +14787,13 @@ unfilled</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIO6"/>
-<wire x1="833.12" y1="-635" x2="830.58" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-635" x2="825.5" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIO5"/>
-<wire x1="833.12" y1="-637.54" x2="830.58" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-637.54" x2="825.5" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="13" class="0">
@@ -14799,8 +14804,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIO13"/>
-<wire x1="833.12" y1="-622.3" x2="828.04" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-622.3" x2="822.96" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -14811,8 +14816,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIO11"/>
-<wire x1="833.12" y1="-627.38" x2="828.04" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-627.38" x2="822.96" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -14823,8 +14828,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA4"/>
-<wire x1="876.3" y1="-624.84" x2="881.38" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-624.84" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-624.84" x2="876.3" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-624.84" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -14835,8 +14840,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GPIOA5"/>
-<wire x1="876.3" y1="-627.38" x2="881.38" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="871.22" y1="-627.38" x2="876.3" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="876.3" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -14889,8 +14894,8 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIO10"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-629.92" x2="828.04" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-629.92" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-629.92" x2="822.96" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-629.92" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIO10"/>
 </segment>
 </net>
@@ -14901,8 +14906,8 @@ unfilled</description>
 <wire x1="680.72" y1="-637.54" x2="675.64" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-624.84" x2="828.04" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-624.84" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="828.04" y1="-624.84" x2="822.96" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="822.96" y="-624.84" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="MS1" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
@@ -14979,6 +14984,10 @@ unfilled</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
