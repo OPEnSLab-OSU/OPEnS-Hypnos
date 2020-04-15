@@ -1,6 +1,3 @@
-# OS1_CS344
-# OS1_CS344
-
 # OpenS-Hypnos
 Power Control Board for microcontroller projects, designed at OPEnS Lab OSU.
 
