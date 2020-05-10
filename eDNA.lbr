@@ -291,18 +291,21 @@
 <text x="5.08" y="-33.02" size="1.6764" layer="25">&gt;NAME</text>
 </package>
 <package name="2MM_5POS_HEADER">
-<pad name="1" x="-4" y="0" drill="0.8" shape="square"/>
-<pad name="2" x="-2" y="0" drill="0.8"/>
-<pad name="3" x="0" y="0" drill="0.8"/>
-<pad name="4" x="2" y="0" drill="0.8"/>
-<pad name="5" x="4" y="0" drill="0.8"/>
-<text x="-2.5334" y="1.87808125" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.574040625" y="-2.472440625" size="1.016" layer="27">&gt;VALUE</text>
-<wire x1="-4.759959375" y1="1.11251875" x2="5.26288125" y2="1.11251875" width="0.1524" layer="21"/>
-<wire x1="5.26288125" y1="1.11251875" x2="5.26288125" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="5.26288125" y1="-1.016" x2="-5.10031875" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-5.10031875" y1="-1.016" x2="-5.10031875" y2="1.127759375" width="0.1524" layer="21"/>
-<wire x1="-5.10031875" y1="1.127759375" x2="-4.688840625" y2="1.127759375" width="0.1524" layer="21"/>
+<pad name="1" x="-4" y="0" drill="0.8" diameter="1.4224" shape="square"/>
+<pad name="2" x="-2" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="2" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="4" y="0" drill="0.8" shape="long" rot="R90"/>
+<text x="-2.5334" y="3.14808125" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.574040625" y="-3.742440625" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-4.759959375" y1="2.38251875" x2="6.03288125" y2="2.38251875" width="0.1524" layer="21"/>
+<wire x1="6.03288125" y1="2.38251875" x2="6.03288125" y2="-1.786" width="0.1524" layer="21"/>
+<wire x1="6.03288125" y1="-1.786" x2="-5.87031875" y2="-1.786" width="0.1524" layer="21"/>
+<wire x1="-5.87031875" y1="-1.786" x2="-5.87031875" y2="2.397759375" width="0.1524" layer="21"/>
+<wire x1="-5.87031875" y1="2.397759375" x2="-4.688840625" y2="2.397759375" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="2" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="2.5" width="0.1524" layer="21"/>
 </package>
 <package name="3PDT_SWITCH_SMD">
 <pad name="8" x="-4.7" y="0" drill="1.4" shape="square"/>
@@ -1932,6 +1935,18 @@
 <text x="0" y="2.5886" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1486" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="JS-DPDT-SMD">
+<smd name="P$1" x="0" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$2" x="2.5" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$3" x="5" y="0" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$4" x="0" y="2.6" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$5" x="2.5" y="2.6" dx="1.6" dy="1" layer="1" rot="R90"/>
+<smd name="P$6" x="5" y="2.6" dx="1.6" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="3.55" x2="6.5" y2="3.55" width="0.1524" layer="21"/>
+<wire x1="6.5" y1="3.55" x2="6.5" y2="-1" width="0.1524" layer="21"/>
+<wire x1="6.5" y1="-1" x2="-1.5" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="3.55" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV12W64P254_1X12_3100X508X838B" urn="urn:adsk.eagle:package:13204156/1" locally_modified="yes" type="model">
@@ -2298,12 +2313,12 @@
 <wire x1="2.54" y1="2.54" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="2.54" x2="12.7" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<pin name="2" x="-2.54" y="7.62" visible="pad" length="middle" rot="R270"/>
-<pin name="1" x="-5.08" y="-7.62" visible="pad" length="middle" rot="R90"/>
-<pin name="3" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
-<pin name="5" x="7.62" y="7.62" visible="pad" length="middle" rot="R270"/>
-<pin name="4" x="5.08" y="-7.62" visible="pad" length="middle" rot="R90"/>
-<pin name="6" x="10.16" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="2" x="-2.54" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="1" x="-5.08" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="3" x="0" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="5" x="7.62" y="7.62" visible="pin" length="middle" rot="R270"/>
+<pin name="4" x="5.08" y="-7.62" visible="pin" length="middle" rot="R90"/>
+<pin name="6" x="10.16" y="-7.62" visible="pin" length="middle" rot="R90"/>
 <text x="-1.27" y="3.556" size="1.524" layer="94">SWITCH</text>
 </symbol>
 <symbol name="PUSH_BUTTON">
@@ -3175,6 +3190,19 @@ https://www.digikey.com/product-detail/en/e-switch/100DP1T1B1M2QEH/EG2400-ND/378
 <technology name=""/>
 </technologies>
 </device>
+<device name="JS-SMD" package="JS-DPDT-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="PUSH_BUTTON">
@@ -3351,8 +3379,8 @@ https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT39
 <devices>
 <device name="" package="SOT23-S">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
