@@ -210,129 +210,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper" urn="urn:adsk.eagle:library:252">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="1">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
-<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
-<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
-<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
-<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
-<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
-<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
-<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
-<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
-<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
-<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
-<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
-<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
-<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
-<description>Solder jumper</description>
-<packageinstances>
-<packageinstance name="SJ"/>
-</packageinstances>
-</package3d>
-<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="1">
-<description>Solder jumper</description>
-<packageinstances>
-<packageinstance name="SJW"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="1">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/1" prefix="SJ" uservalue="yes" library_version="1">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="SJW">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="MICROSD" urn="urn:adsk.eagle:footprint:6240077/1" library_version="2">
@@ -9815,8 +9692,6 @@ unfilled</description>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="MICROSD" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MICROSD" device="" package3d_urn="urn:adsk.eagle:package:6240723/1"/>
-<part name="5VRAIL" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="3VRAIL" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="R2" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="30k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="30k"/>
@@ -9852,7 +9727,8 @@ unfilled</description>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="D1" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="D-" device="SOD123" package3d_urn="urn:adsk.eagle:package:26308/2"/>
-<part name="3VRAIL1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="5V" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="3V" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9899,14 +9775,6 @@ Should drive at 0.5mA</text>
 <attribute name="VALUE" x="718.82" y="-564.134" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="MICROSD" gate="G$1" x="876.3" y="-551.18" smashed="yes" grouprefs="SDCARD"/>
-<instance part="5VRAIL" gate="1" x="690.88" y="-650.24" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="695.452" y="-649.986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="688.34" y="-654.05" size="1.778" layer="96"/>
-</instance>
-<instance part="3VRAIL" gate="1" x="683.26" y="-652.78" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="680.72" y="-652.78" size="1.778" layer="95"/>
-<attribute name="VALUE" x="680.72" y="-656.59" size="1.778" layer="96"/>
-</instance>
 <instance part="R2" gate="G$1" x="713.74" y="-652.78" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="NAME" x="712.2414" y="-656.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="717.042" y="-656.59" size="1.778" layer="96" rot="R90"/>
@@ -10018,9 +9886,13 @@ Should drive at 0.5mA</text>
 <attribute name="NAME" x="845.058" y="-553.72" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="839.597" y="-553.72" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="3VRAIL1" gate="1" x="838.2" y="-556.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="837.946" y="-551.688" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="842.01" y="-558.8" size="1.778" layer="96" rot="R90"/>
+<instance part="5V" gate="G$1" x="690.88" y="-650.24" smashed="yes">
+<attribute name="NAME" x="693.42" y="-650.24" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="693.42" y="-650.748" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="3V" gate="G$1" x="683.26" y="-652.78" smashed="yes">
+<attribute name="NAME" x="685.8" y="-652.78" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="685.8" y="-653.288" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -10317,15 +10189,15 @@ Should drive at 0.5mA</text>
 <net name="N$1" class="0">
 <segment>
 <wire x1="675.64" y1="-650.24" x2="685.8" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<pinref part="5VRAIL" gate="1" pin="1"/>
 <pinref part="MS2" gate="G$1" pin="GPIO6"/>
+<pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <wire x1="675.64" y1="-652.78" x2="678.18" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<pinref part="3VRAIL" gate="1" pin="1"/>
 <pinref part="MS2" gate="G$1" pin="GPIO5"/>
+<pinref part="3V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5VUSB" class="0">
@@ -10367,12 +10239,8 @@ Should drive at 0.5mA</text>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="843.28" y1="-553.72" x2="843.28" y2="-551.18" width="0.1524" layer="91" grouprefs="SDCARD"/>
 <label x="843.28" y="-548.64" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="SDCARD"/>
-<wire x1="843.28" y1="-551.18" x2="843.28" y2="-548.64" width="0.1524" layer="91" grouprefs="SDCARD"/>
-<wire x1="838.2" y1="-551.18" x2="843.28" y2="-551.18" width="0.1524" layer="91" grouprefs="SDCARD"/>
-<junction x="843.28" y="-551.18" grouprefs="SDCARD"/>
-<pinref part="3VRAIL1" gate="1" pin="2"/>
+<wire x1="843.28" y1="-553.72" x2="843.28" y2="-548.64" width="0.1524" layer="91" grouprefs="SDCARD"/>
 </segment>
 <segment>
 <wire x1="685.8" y1="-673.1" x2="685.8" y2="-675.64" width="0.1524" layer="91"/>
@@ -10618,20 +10486,19 @@ Should drive at 0.5mA</text>
 <wire x1="744.22" y1="-614.68" x2="746.76" y2="-614.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="5V" class="0">
 <segment>
-<pinref part="3VRAIL" gate="1" pin="2"/>
 <wire x1="688.34" y1="-652.78" x2="708.66" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="708.66" y1="-652.78" x2="708.66" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="708.66" y1="-657.86" x2="713.74" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="PMOS2" gate="G$1" pin="G"/>
 <wire x1="713.74" y1="-657.86" x2="721.36" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<pinref part="3V" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="5VRAIL" gate="1" pin="2"/>
 <wire x1="695.96" y1="-650.24" x2="708.66" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="708.66" y1="-650.24" x2="708.66" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -10639,6 +10506,7 @@ Should drive at 0.5mA</text>
 <junction x="718.82" y="-632.46" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="U$3" gate="G$1" pin="G"/>
 <wire x1="718.82" y1="-632.46" x2="734.06" y2="-632.46" width="0.1524" layer="91"/>
+<pinref part="5V" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10685,8 +10553,6 @@ Should drive at 0.5mA</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="843.28" y1="-561.34" x2="843.28" y2="-558.8" width="0.1524" layer="91" grouprefs="SDCARD"/>
 <junction x="843.28" y="-561.34" grouprefs="SDCARD"/>
-<wire x1="838.2" y1="-561.34" x2="843.28" y2="-561.34" width="0.1524" layer="91" grouprefs="SDCARD"/>
-<pinref part="3VRAIL1" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
