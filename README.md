@@ -57,7 +57,7 @@ Remember to power the 3.3Rail before initializing/communicating with uSD card, R
 
 ### To control the power rails:
 
-<img align="right" src="https://i.postimg.cc/vmc9yRzH/Hypnos-Trace-1.png" width="40%">
+<img align="right" src="https://i.postimg.cc/3x74N0bt/Hypnos-Trace.png" width="40%">
 
 * **3v3 rail**: Set `PIN 5` of the Feather to **LOW** for closed circuit (conduct), otherwise, the pin is pulled HIGH for open circuit (not conduct).
 
