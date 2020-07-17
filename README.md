@@ -9,7 +9,7 @@ Go to [Hypnos Wiki](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/Hypnos) 
 </p>
 
 ### Pinout
-![Hypnos V3.1 Pinout](Hypnos%20V3.1/Hypnos%203%20pinout.png)
+![Hypnos V3.1 Pinout](https://user-images.githubusercontent.com/48141945/81597849-39e83080-937b-11ea-8c21-32288e75d8c6.png)
 
 ### Description
 The OPEnS-Hypnos board is a simple, low-cost circuit board that can be attached to an Adafruit Feather M0 microcontroller and a DS3231 real-time clock breakout board to enable shutting off power to the microcontroller until a timed or sensed event wakes it up.
