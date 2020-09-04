@@ -20,16 +20,16 @@
             "name": "Chet Udell"
         }
     ],
-	"contributors": [
+    "contributors": [
 		{
 		  "name": "Max Y Chu",
 		  "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Oregon State University",
-		  "type": "Data Collector"
+		  "type": "DataCollector"
 		},
 		{
 		  "affiliation": "Oregon State University",
 		  "name": "Marshal Horn",
-		  "type": "Data Collector"
+		  "type": "DataCollector"
 		}
 	],
 	  "keywords": [
