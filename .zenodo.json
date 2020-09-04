@@ -1,32 +1,29 @@
 {
     "description": "<p>Hypnos has the ability to completely cut off power for peripherals while keeping the feather awake to run deep sleep code. More than just a powerboard, the Hypnos board comes with high precision real-time clock DS3231 and a microSD card for logging data during operation.</p>", 
     "license": "gpl-3.0", 
-    "title": "OPEnSLab-OSU/OPEnS-Hypnos: V3.1", 
-    "version": "V3.1", 
-    "upload_type": "software", 
-    "publication_date": "2020-05-24", 
+    "title": "Hypnos Board", 
     "creators": [
         {	
-			"affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Electrical Engineering and Computer Science, Oregon State University",
+			"affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Oregon State University",
             "name": "Bao Nguyen"
         }, 
         {
-            "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Electrical Engineering and Computer Science, Oregon State University", 
+            "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Oregon State University", 
             "name": "Bryson Goto"
         }, 
         {
-            "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Electrical Engineering and Computer Science, Oregon State University", 
+            "affiliation": "Department of Biological and Ecological Engineering, Oregon State University", 
             "name": "John Selker"
         }, 
         {
-            "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Electrical Engineering and Computer Science, Oregon State University", 
+            "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Biological and Ecological Engineering, Oregon State University", 
             "name": "Chet Udell"
         }
     ],
 	"contributors": [
 		{
 		  "name": "Max Y Chu",
-		  "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Department of Electrical Engineering and Computer Science, Oregon State University",
+		  "affiliation": "Openly Published Environmental Sensing (OPEnS) Lab, Oregon State University",
 		  "type": "Data Collector"
 		},
 		{
@@ -34,7 +31,7 @@
 		  "name": "Marshal Horn",
 		  "type": "Data Collector"
 		}
-	  ],
+	],
 	  "keywords": [
 		"eDNA",
 		"polywag",
@@ -46,18 +43,5 @@
         "data logging",
         "real-time clock",
         "relay"
-	  ],	
-    "access_right": "open", 
-    "related_identifiers": [
-        {
-            "scheme": "url", 
-            "identifier": "https://github.com/OPEnSLab-OSU/OPEnS-Hypnos/tree/V3.1", 
-            "relation": "isSupplementTo"
-        }, 
-        {
-            "scheme": "doi", 
-            "identifier": "10.5281/zenodo.2530970", 
-            "relation": "isVersionOf"
-        }
-    ]
+	  ]
 }
