@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1902,7 +1902,6 @@
 <package name="SOT23-6" urn="urn:adsk.eagle:footprint:13489254/1" locally_modified="yes">
 <description>6-SOT23, 0.95 mm pitch, 2.85 mm span, 2.55 X 1.60 X 1.30 mm body
 &lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.85 mm span with body size 2.55 X 1.60 X 1.30 mm&lt;/p&gt;</description>
-<circle x="-1.355" y="1.7525" radius="0.25" width="0" layer="21"/>
 <wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
 <wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
 <wire x1="0.85" y1="-1.55" x2="-0.85" y2="-1.55" width="0.12" layer="51"/>
@@ -1917,6 +1916,7 @@
 <smd name="6" x="1.2873" y="0.95" dx="1.1456" dy="0.5971" layer="1"/>
 <text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-3.683" y="0.635" size="1.778" layer="21">*</text>
 </package>
 <package name="SOT23-S" urn="urn:adsk.eagle:footprint:13526763/1" locally_modified="yes">
 <description>3-SOT23, 0.92 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
@@ -2416,7 +2416,7 @@
 </symbol>
 <symbol name="P-MOS">
 <description>&lt;h3&gt;P-channel MOSFET&lt;/h3&gt;
-Switches electrical signals</description>
+6 pin PMOS; Part #: DMP3056LDMDICT-ND; Source: https://www.digikey.com/en/products/detail/diodes-incorporated/DMP3056LDM-7/1964772</description>
 <text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
@@ -2471,7 +2471,9 @@ Switches electrical signals</description>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
 <symbol name="NMOS">
-<description>MOSFET N-channel - Enhancement mode</description>
+<description>&lt;h3&gt;MOSFET N-channel&lt;/h3&gt;
+
+3 pin NMOS; Part #: DMN65D8L-7DICT-ND; Source: https://www.digikey.com/en/products/detail/diodes-incorporated/DMN65D8L-7/3677916</description>
 <wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
@@ -3321,14 +3323,13 @@ https://www.digikey.com/product-detail/en/amphenol-icc-fci/SFW6R-4STE1LF/609-189
 </devices>
 </deviceset>
 <deviceset name="P-MOSFET">
-<description>P-channel mosfet
+<description>P-Channel 30V 4.3A (Ta) 1.25W (Ta) Surface Mount SOT-26, 6 pins
 &lt;br/&gt;
 &lt;br/&gt;
-
-	P-Channel 30V 4.3A (Ta) 1.25W (Ta) Surface Mount SOT-26
-&lt;br/&gt;
-&lt;br/&gt;
-https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056LDM-7/DMP3056LDMDICT-ND/1964772</description>
+https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056LDM-7/DMP3056LDMDICT-ND/1964772
+&lt;br&gt;
+&lt;br&gt;
+Part #: DMP3056LDMDICT-ND</description>
 <gates>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
 </gates>
@@ -3373,6 +3374,13 @@ https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT39
 </devices>
 </deviceset>
 <deviceset name="NMOS">
+<description>N-Channel 310mA (Ta) 370mW (Ta) Surface Mount SOT-23, 3 pins
+&lt;br&gt;
+&lt;br&gt;
+https://www.digikey.com/en/products/detail/diodes-incorporated/DMN65D8L-7/3677916
+&lt;br&gt;
+&lt;br&gt;
+Part #: DMN65D8L-7DICT-ND</description>
 <gates>
 <gate name="G$1" symbol="NMOS" x="0" y="0"/>
 </gates>

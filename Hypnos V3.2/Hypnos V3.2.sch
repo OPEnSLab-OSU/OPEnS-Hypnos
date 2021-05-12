@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3956,19 +3956,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="powerboard">
 <packages>
-<package name="FEATHERWING" urn="urn:adsk.eagle:footprint:6240316/1" locally_modified="yes">
-<pad name="28" x="16.51" y="21.59" drill="1" diameter="1.778"/>
-<pad name="27" x="19.05" y="21.59" drill="1" diameter="1.778"/>
-<pad name="26" x="21.59" y="21.59" drill="1" diameter="1.778"/>
-<pad name="25" x="24.13" y="21.59" drill="1" diameter="1.778"/>
-<pad name="24" x="26.67" y="21.59" drill="1" diameter="1.778"/>
-<pad name="23" x="29.21" y="21.59" drill="1" diameter="1.778"/>
-<pad name="22" x="31.75" y="21.59" drill="1" diameter="1.778"/>
-<pad name="21" x="34.29" y="21.59" drill="1" diameter="1.778"/>
-<pad name="20" x="36.83" y="21.59" drill="1" diameter="1.778"/>
-<pad name="19" x="39.37" y="21.59" drill="1" diameter="1.778"/>
-<pad name="18" x="41.91" y="21.59" drill="1" diameter="1.778"/>
-<pad name="17" x="44.45" y="21.59" drill="1" diameter="1.778"/>
+<package name="FEATHERWING">
+<pad name="1" x="6.35" y="1.27" drill="1" diameter="1.778"/>
+<pad name="2" x="8.89" y="1.27" drill="1" diameter="1.778"/>
+<pad name="3" x="11.43" y="1.27" drill="1" diameter="1.778"/>
+<pad name="4" x="13.97" y="1.27" drill="1" diameter="1.778"/>
 <pad name="5" x="16.51" y="1.27" drill="1" diameter="1.778"/>
 <pad name="6" x="19.05" y="1.27" drill="1" diameter="1.778"/>
 <pad name="7" x="21.59" y="1.27" drill="1" diameter="1.778"/>
@@ -3981,72 +3973,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="14" x="39.37" y="1.27" drill="1" diameter="1.778"/>
 <pad name="15" x="41.91" y="1.27" drill="1" diameter="1.778"/>
 <pad name="16" x="44.45" y="1.27" drill="1" diameter="1.778"/>
-<pad name="4" x="13.97" y="1.27" drill="1" diameter="1.778"/>
-<pad name="3" x="11.43" y="1.27" drill="1" diameter="1.778"/>
-<pad name="2" x="8.89" y="1.27" drill="1" diameter="1.778"/>
-<pad name="1" x="6.35" y="1.27" drill="1" diameter="1.778"/>
-</package>
-<package name="FEATHERWING_DIM" urn="urn:adsk.eagle:footprint:6240317/1">
-<wire x1="2.54" y1="0" x2="48.26" y2="0" width="0" layer="21"/>
-<wire x1="48.26" y1="0" x2="50.8" y2="2.54" width="0" layer="21" curve="90"/>
-<wire x1="50.8" y1="2.54" x2="50.8" y2="20.32" width="0" layer="21"/>
-<wire x1="50.8" y1="20.32" x2="48.26" y2="22.86" width="0" layer="21" curve="90"/>
-<wire x1="48.26" y1="22.86" x2="2.54" y2="22.86" width="0" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="0" y2="20.32" width="0" layer="21" curve="90"/>
-<wire x1="0" y1="20.32" x2="0" y2="13.716" width="0" layer="21"/>
-<wire x1="0" y1="13.716" x2="0.508" y2="13.208" width="0" layer="21"/>
-<wire x1="0.508" y1="13.208" x2="0.508" y2="9.652" width="0" layer="21"/>
-<wire x1="0.508" y1="9.652" x2="0" y2="9.144" width="0" layer="21"/>
-<wire x1="0" y1="9.144" x2="0" y2="2.54" width="0" layer="21"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="21" curve="90"/>
-<hole x="48.26" y="20.32" drill="2.54"/>
-<hole x="48.26" y="2.54" drill="2.54"/>
-<pad name="P$1" x="2.54" y="20.32" drill="2.5" diameter="3.81"/>
-<pad name="P$2" x="2.54" y="2.54" drill="2.5" diameter="3.81"/>
-<pad name="28" x="16.51" y="21.59" drill="1" diameter="1.778"/>
-<pad name="27" x="19.05" y="21.59" drill="1" diameter="1.778"/>
-<pad name="26" x="21.59" y="21.59" drill="1" diameter="1.778"/>
-<pad name="25" x="24.13" y="21.59" drill="1" diameter="1.778"/>
-<pad name="24" x="26.67" y="21.59" drill="1" diameter="1.778"/>
-<pad name="23" x="29.21" y="21.59" drill="1" diameter="1.778"/>
-<pad name="22" x="31.75" y="21.59" drill="1" diameter="1.778"/>
-<pad name="21" x="34.29" y="21.59" drill="1" diameter="1.778"/>
-<pad name="20" x="36.83" y="21.59" drill="1" diameter="1.778"/>
-<pad name="19" x="39.37" y="21.59" drill="1" diameter="1.778"/>
-<pad name="18" x="41.91" y="21.59" drill="1" diameter="1.778"/>
 <pad name="17" x="44.45" y="21.59" drill="1" diameter="1.778"/>
-<pad name="5" x="16.51" y="1.27" drill="1" diameter="1.778"/>
-<pad name="6" x="19.05" y="1.27" drill="1" diameter="1.778"/>
-<pad name="7" x="21.59" y="1.27" drill="1" diameter="1.778"/>
-<pad name="8" x="24.13" y="1.27" drill="1" diameter="1.778"/>
-<pad name="9" x="26.67" y="1.27" drill="1" diameter="1.778"/>
-<pad name="10" x="29.21" y="1.27" drill="1" diameter="1.778"/>
-<pad name="11" x="31.75" y="1.27" drill="1" diameter="1.778"/>
-<pad name="12" x="34.29" y="1.27" drill="1" diameter="1.778"/>
-<pad name="13" x="36.83" y="1.27" drill="1" diameter="1.778"/>
-<pad name="14" x="39.37" y="1.27" drill="1" diameter="1.778"/>
-<pad name="15" x="41.91" y="1.27" drill="1" diameter="1.778"/>
-<pad name="16" x="44.45" y="1.27" drill="1" diameter="1.778"/>
-<pad name="4" x="13.97" y="1.27" drill="1" diameter="1.778"/>
-<pad name="3" x="11.43" y="1.27" drill="1" diameter="1.778"/>
-<pad name="2" x="8.89" y="1.27" drill="1" diameter="1.778"/>
-<pad name="1" x="6.35" y="1.27" drill="1" diameter="1.778"/>
+<pad name="18" x="41.91" y="21.59" drill="1" diameter="1.778"/>
+<pad name="19" x="39.37" y="21.59" drill="1" diameter="1.778"/>
+<pad name="20" x="36.83" y="21.59" drill="1" diameter="1.778"/>
+<pad name="21" x="34.29" y="21.59" drill="1" diameter="1.778"/>
+<pad name="22" x="31.75" y="21.59" drill="1" diameter="1.778"/>
+<pad name="23" x="29.21" y="21.59" drill="1" diameter="1.778"/>
+<pad name="24" x="26.67" y="21.59" drill="1" diameter="1.778"/>
+<pad name="25" x="24.13" y="21.59" drill="1" diameter="1.778"/>
+<pad name="26" x="21.59" y="21.59" drill="1" diameter="1.778"/>
+<pad name="27" x="19.05" y="21.59" drill="1" diameter="1.778"/>
+<pad name="28" x="16.51" y="21.59" drill="1" diameter="1.778"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="FEATHERWING" urn="urn:adsk.eagle:package:6240959/1" locally_modified="yes" type="box">
-<packageinstances>
-<packageinstance name="FEATHERWING"/>
-</packageinstances>
-</package3d>
-<package3d name="FEATHERWING_DIM" urn="urn:adsk.eagle:package:6240960/1" type="box">
-<packageinstances>
-<packageinstance name="FEATHERWING_DIM"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
 <symbol name="MICROSHIELD">
+<circle x="45.72" y="30.48" radius="1.27" width="0.254" layer="94"/>
+<circle x="45.72" y="2.54" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
+<circle x="2.54" y="30.48" radius="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="33.02" x2="0" y2="22.86" width="0.254" layer="94"/>
 <wire x1="0" y1="22.86" x2="0" y2="12.7" width="0.254" layer="94"/>
 <wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
@@ -4068,39 +4014,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="!RESET" x="5.08" y="-5.08" length="middle" direction="in" rot="R90"/>
 <pin name="3V" x="7.62" y="-5.08" length="middle" direction="sup" rot="R90"/>
 <pin name="AREF" x="10.16" y="-5.08" length="middle" direction="pas" rot="R90"/>
+<pin name="EN" x="17.78" y="38.1" length="middle" direction="pas" rot="R270"/>
 <pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<pin name="GPIO5" x="38.1" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO6" x="35.56" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO9" x="33.02" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO10" x="30.48" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO11" x="27.94" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO12" x="25.4" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIO13" x="22.86" y="38.1" length="middle" rot="R270"/>
 <pin name="GPIOA0" x="15.24" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOA1" x="17.78" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOA2" x="20.32" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOA3" x="22.86" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOA4" x="25.4" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOA5" x="27.94" y="-5.08" length="middle" rot="R90"/>
-<pin name="GPIOSCK" x="30.48" y="-5.08" length="middle" rot="R90"/>
-<pin name="GPIOMOSI" x="33.02" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIOMISO" x="35.56" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOMOSI" x="33.02" y="-5.08" length="middle" rot="R90"/>
 <pin name="GPIORX" x="38.1" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOSCK" x="30.48" y="-5.08" length="middle" rot="R90"/>
+<pin name="GPIOSCL" x="40.64" y="38.1" length="middle" rot="R270"/>
+<pin name="GPIOSDA" x="43.18" y="38.1" length="middle" rot="R270"/>
 <pin name="GPIOTX" x="40.64" y="-5.08" length="middle" rot="R90"/>
 <pin name="NC" x="43.18" y="-5.08" length="middle" direction="pas" rot="R90"/>
-<pin name="GPIOSDA" x="43.18" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIOSCL" x="40.64" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO5" x="38.1" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO9" x="33.02" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO6" x="35.56" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO10" x="30.48" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO11" x="27.94" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO12" x="25.4" y="38.1" length="middle" rot="R270"/>
-<pin name="GPIO13" x="22.86" y="38.1" length="middle" rot="R270"/>
-<pin name="EN" x="17.78" y="38.1" length="middle" direction="pas" rot="R270"/>
 <pin name="USB" x="20.32" y="38.1" length="middle" direction="sup" rot="R270"/>
 <pin name="VBAT" x="15.24" y="38.1" length="middle" direction="sup" rot="R270"/>
-<circle x="45.72" y="30.48" radius="1.27" width="0.254" layer="94"/>
-<circle x="45.72" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="2.54" y="30.48" radius="1.27" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="12.7" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="FEATHERWING" prefix="MS">
+<description>Feather form factor pinout, 28 pins
+&lt;br&gt;
+&lt;br&gt;
+Forked from: https://github.com/adafruit/Adafruit-Eagle-Library</description>
 <gates>
 <gate name="G$1" symbol="MICROSHIELD" x="-25.4" y="-15.24"/>
 </gates>
@@ -4136,47 +4084,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="USB" pad="26"/>
 <connect gate="G$1" pin="VBAT" pad="28"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240959/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_NODIM" package="FEATHERWING_DIM">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="1"/>
-<connect gate="G$1" pin="3V" pad="2"/>
-<connect gate="G$1" pin="AREF" pad="3"/>
-<connect gate="G$1" pin="EN" pad="27"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="GPIO10" pad="22"/>
-<connect gate="G$1" pin="GPIO11" pad="23"/>
-<connect gate="G$1" pin="GPIO12" pad="24"/>
-<connect gate="G$1" pin="GPIO13" pad="25"/>
-<connect gate="G$1" pin="GPIO5" pad="19"/>
-<connect gate="G$1" pin="GPIO6" pad="20"/>
-<connect gate="G$1" pin="GPIO9" pad="21"/>
-<connect gate="G$1" pin="GPIOA0" pad="5"/>
-<connect gate="G$1" pin="GPIOA1" pad="6"/>
-<connect gate="G$1" pin="GPIOA2" pad="7"/>
-<connect gate="G$1" pin="GPIOA3" pad="8"/>
-<connect gate="G$1" pin="GPIOA4" pad="9"/>
-<connect gate="G$1" pin="GPIOA5" pad="10"/>
-<connect gate="G$1" pin="GPIOMISO" pad="13"/>
-<connect gate="G$1" pin="GPIOMOSI" pad="12"/>
-<connect gate="G$1" pin="GPIORX" pad="14"/>
-<connect gate="G$1" pin="GPIOSCK" pad="11"/>
-<connect gate="G$1" pin="GPIOSCL" pad="18"/>
-<connect gate="G$1" pin="GPIOSDA" pad="17"/>
-<connect gate="G$1" pin="GPIOTX" pad="15"/>
-<connect gate="G$1" pin="NC" pad="16"/>
-<connect gate="G$1" pin="USB" pad="26"/>
-<connect gate="G$1" pin="VBAT" pad="28"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6240960/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4188,22 +4095,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="M0_Power">
 <packages>
 <package name="SOT-23-3">
-<smd name="S" x="-1.2" y="-0.95" dx="0.6" dy="0.8" layer="1" rot="R90"/>
-<smd name="G" x="-1.2" y="0.95" dx="0.6" dy="0.8" layer="1" rot="R90"/>
-<smd name="D" x="1.2" y="0" dx="0.6" dy="0.8" layer="1" rot="R90"/>
 <wire x1="-0.6" y1="-1.1" x2="-0.6" y2="1.1" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="1.1" x2="0.6" y2="1.1" width="0.127" layer="21"/>
 <wire x1="0.6" y1="1.1" x2="0.6" y2="-1.1" width="0.127" layer="21"/>
 <wire x1="0.6" y1="-1.1" x2="-0.6" y2="-1.1" width="0.127" layer="21"/>
+<smd name="D" x="1.2" y="0" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="G" x="-1.2" y="0.95" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="S" x="-1.2" y="-0.95" dx="0.6" dy="0.8" layer="1" rot="R90"/>
 <text x="-1.9" y="1.7" size="0.6096" layer="25" font="vector">&gt;Name</text>
 </package>
 </packages>
 <symbols>
 <symbol name="SSM3J3228R">
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<pin name="G" x="-10.16" y="0" visible="pad" length="short"/>
-<pin name="S" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
-<pin name="D" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
 <wire x1="-5.08" y1="-1.016" x2="-5.08" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-1.778" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.778" width="0.254" layer="94"/>
@@ -4215,33 +4119,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.08" y1="1.778" x2="0" y2="1.778" width="0.254" layer="94"/>
 <wire x1="0" y1="1.778" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-2.286" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="1.778" width="0.254" layer="94"/>
 <wire x1="-2.286" y1="0" x2="-3.048" y2="0.762" width="0.254" layer="94"/>
 <wire x1="-3.048" y1="0.762" x2="-3.048" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-2.286" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.286" y1="0" x2="-3.048" y2="-0.762" width="0.254" layer="94"/>
+<pin name="D" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
+<pin name="G" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
 <text x="-8.89" y="1.778" size="1.016" layer="97" font="vector">G</text>
 <text x="-4.318" y="-3.556" size="1.016" layer="97" font="vector">D</text>
 <text x="-4.318" y="2.794" size="1.016" layer="97" font="vector">S</text>
 <text x="-5.842" y="-3.556" size="1.016" layer="97" font="vector" rot="R90">P-Channel</text>
+<text x="2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="SSM3J3228R">
-<description>P-Channel MOSFET, SOT-23-3 SMD Package</description>
+<description>PMOS 3.8A (Ta) 1.08W (Ta) Surface Mount SOT-23, 3 pins
+&lt;br&gt;
+&lt;br&gt;
+Source: https://www.digikey.com/en/products/detail/diodes-incorporated/DMP3099L-7/4471075?s=N4IgTCBcDaICIFkAKBmADATgwGQLQHY4BJAYQBVcA5OEAXQF8g
+&lt;br&gt;
+&lt;br&gt;
+Part #: DMP3099L-7DICT-ND</description>
 <gates>
-<gate name="G$1" symbol="SSM3J3228R" x="0" y="0"/>
+<gate name="PMOS1" symbol="SSM3J3228R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-3">
 <connects>
-<connect gate="G$1" pin="D" pad="D"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="PMOS1" pin="D" pad="D"/>
+<connect gate="PMOS1" pin="G" pad="G"/>
+<connect gate="PMOS1" pin="S" pad="S"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PMOS" value="P-MOSFET" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -6186,10 +6102,13 @@ https://www.mouser.com/ProductDetail/CK/KMR731NGLFS?qs=%2Fha2pyFaduiYmAh2YH01Ejo
 </devices>
 </deviceset>
 <deviceset name="P-MOSFET">
-<description>P-Channel 30V 4.3A (Ta) 1.25W (Ta) Surface Mount SOT-26
+<description>P-Channel 30V 4.3A (Ta) 1.25W (Ta) Surface Mount SOT-26, 6 pins
 &lt;br/&gt;
 &lt;br/&gt;
-https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056LDM-7/DMP3056LDMDICT-ND/1964772</description>
+https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056LDM-7/DMP3056LDMDICT-ND/1964772
+&lt;br&gt;
+&lt;br&gt;
+Part #: DMP3056LDMDICT-ND</description>
 <gates>
 <gate name="G$1" symbol="P-MOS" x="0" y="0"/>
 </gates>
@@ -6210,7 +6129,7 @@ https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3056LDM-7/DMP30
 </devices>
 </deviceset>
 <deviceset name="NMOS">
-<description>N-Channel 310mA (Ta) 370mW (Ta) Surface Mount SOT-23
+<description>N-Channel 310mA (Ta) 370mW (Ta) Surface Mount SOT-23, 3 pins
 &lt;br&gt;
 &lt;br&gt;
 https://www.digikey.com/en/products/detail/diodes-incorporated/DMN65D8L-7/3677916
@@ -7454,6 +7373,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <circle x="45.72" y="2.54" radius="1.27" width="0.254" layer="94"/>
 <circle x="2.54" y="2.54" radius="1.27" width="0.254" layer="94"/>
 <circle x="2.54" y="30.48" radius="1.27" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
 <symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -13867,10 +13788,10 @@ unfilled</description>
 <part name="R2" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="30k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="30k"/>
-<part name="MS1" library="powerboard" deviceset="FEATHERWING" device="" package3d_urn="urn:adsk.eagle:package:6240959/1"/>
+<part name="FEATHERWING" library="powerboard" deviceset="FEATHERWING" device="" value="SENSOR_PINOUT"/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="PMOS1" library="M0_Power" deviceset="SSM3J3228R" device=""/>
-<part name="PMOS2" library="M0_Power" deviceset="SSM3J3228R" device=""/>
+<part name="PMOS1" library="M0_Power" deviceset="SSM3J3228R" device="" value="DMP3099L-7"/>
+<part name="PMOS2" library="M0_Power" deviceset="SSM3J3228R" device="" value="DMP3099L-7"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13891,9 +13812,9 @@ unfilled</description>
 <part name="R9" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="3k"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="MS2" library="adafruit" deviceset="FEATHERWING" device="" package3d_urn="urn:adsk.eagle:package:6240959/1"/>
+<part name="MS2" library="adafruit" deviceset="FEATHERWING" device="" package3d_urn="urn:adsk.eagle:package:6240959/1" value="FEATHER_PINOUT"/>
 <part name="RTC_INT" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
-<part name="PMOS3" library="eDNA" deviceset="P-MOSFET" device="" package3d_urn="urn:adsk.eagle:package:13489247/1"/>
+<part name="PMOS3" library="eDNA" deviceset="P-MOSFET" device="" package3d_urn="urn:adsk.eagle:package:13489247/1" value="DMP3056LDM-7"/>
 <part name="OUT+" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1" value="HIGHV-OUT"/>
 <part name="+IN" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1" value="HIGHV-IN"/>
 <part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP16R" package3d_urn="urn:adsk.eagle:package:27969/1"/>
@@ -13902,8 +13823,8 @@ unfilled</description>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R11" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="100k"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q1" library="eDNA" deviceset="NMOS" device="" package3d_urn="urn:adsk.eagle:package:13526746/1"/>
-<part name="Q2" library="eDNA" deviceset="NMOS" device="" package3d_urn="urn:adsk.eagle:package:13526746/1"/>
+<part name="Q1" library="eDNA" deviceset="NMOS" device="" package3d_urn="urn:adsk.eagle:package:13526746/1" value="DMN65D8L-7"/>
+<part name="Q2" library="eDNA" deviceset="NMOS" device="" package3d_urn="urn:adsk.eagle:package:13526746/1" value="DMN65D8L-7"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
 <part name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -13966,12 +13887,20 @@ unfilled</description>
 <attribute name="NAME" x="720.3186" y="-631.19" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="715.518" y="-631.19" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="MS1" gate="G$1" x="871.22" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC"/>
+<instance part="FEATHERWING" gate="G$1" x="871.22" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC">
+<attribute name="VALUE" x="866.14" y="-596.9" size="1.778" layer="96" rot="MR0"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="607.06" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="604.52" y="-619.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PMOS1" gate="G$1" x="751.84" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<instance part="PMOS2" gate="G$1" x="731.52" y="-678.18" smashed="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<instance part="PMOS1" gate="PMOS1" x="751.84" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="753.364" y="-612.394" size="1.778" layer="95"/>
+<attribute name="VALUE" x="753.11" y="-615.188" size="1.778" layer="96"/>
+</instance>
+<instance part="PMOS2" gate="PMOS1" x="731.52" y="-678.18" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="734.06" y="-675.64" size="1.778" layer="95"/>
+<attribute name="VALUE" x="734.06" y="-680.72" size="1.778" layer="96"/>
+</instance>
 <instance part="+3V4" gate="G$1" x="731.52" y="-662.94" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="731.52" y="-660.4" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -14039,12 +13968,15 @@ unfilled</description>
 <instance part="GND11" gate="1" x="754.38" y="-680.72" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="751.84" y="-683.26" size="1.778" layer="96"/>
 </instance>
-<instance part="MS2" gate="G$1" x="637.54" y="-612.14" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY"/>
+<instance part="MS2" gate="G$1" x="637.54" y="-612.14" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="643.128" y="-609.854" size="1.778" layer="96"/>
+</instance>
 <instance part="RTC_INT" gate="G$1" x="685.8" y="-637.54" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
 <attribute name="VALUE" x="688.34" y="-638.048" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="PMOS3" gate="G$1" x="782.32" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="787.4" y="-614.68" size="1.778" layer="95" font="vector"/>
+<attribute name="NAME" x="787.146" y="-612.902" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="787.146" y="-615.442" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="OUT+" gate="G$1" x="772.16" y="-655.32" smashed="yes">
 <attribute name="NAME" x="765.81" y="-649.605" size="1.778" layer="95"/>
@@ -14121,7 +14053,7 @@ unfilled</description>
 <segment>
 <wire x1="833.12" y1="-614.68" x2="828.04" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-614.68" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="VBAT"/>
+<pinref part="FEATHERWING" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
@@ -14211,7 +14143,7 @@ unfilled</description>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GND"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GND"/>
 <wire x1="876.3" y1="-612.14" x2="899.16" y2="-612.14" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <wire x1="899.16" y1="-612.14" x2="899.16" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -14304,7 +14236,7 @@ unfilled</description>
 <segment>
 <wire x1="876.3" y1="-635" x2="906.78" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="906.78" y="-635" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIOMISO"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOMISO"/>
 </segment>
 </net>
 <net name="DI" class="0">
@@ -14321,7 +14253,7 @@ unfilled</description>
 <segment>
 <wire x1="876.3" y1="-632.46" x2="906.78" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="906.78" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIOMOSI"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOMOSI"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -14338,7 +14270,7 @@ unfilled</description>
 <segment>
 <wire x1="876.3" y1="-629.92" x2="906.78" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="906.78" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIOSCK"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOSCK"/>
 </segment>
 </net>
 <net name="CS" class="0">
@@ -14371,7 +14303,7 @@ unfilled</description>
 <segment>
 <label x="828.04" y="-640.08" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <wire x1="833.12" y1="-640.08" x2="828.04" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIOSCL"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOSCL"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14392,7 +14324,7 @@ unfilled</description>
 <segment>
 <label x="828.04" y="-642.62" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <wire x1="833.12" y1="-642.62" x2="828.04" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIOSDA"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOSDA"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14404,7 +14336,7 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="PMOS2" gate="G$1" pin="S"/>
+<pinref part="PMOS2" gate="PMOS1" pin="S"/>
 <wire x1="731.52" y1="-665.48" x2="731.52" y2="-668.02" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="731.52" y1="-668.02" x2="731.52" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
@@ -14453,19 +14385,19 @@ unfilled</description>
 <wire x1="718.82" y1="-594.36" x2="739.14" y2="-594.36" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<pinref part="PMOS1" gate="G$1" pin="S"/>
+<pinref part="PMOS1" gate="PMOS1" pin="S"/>
 <wire x1="751.84" y1="-609.6" x2="751.84" y2="-604.52" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <label x="751.84" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="3VRAIL" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="3V"/>
+<pinref part="FEATHERWING" gate="G$1" pin="3V"/>
 <wire x1="876.3" y1="-607.06" x2="896.62" y2="-607.06" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="896.62" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
-<pinref part="PMOS2" gate="G$1" pin="D"/>
+<pinref part="PMOS2" gate="PMOS1" pin="D"/>
 <wire x1="731.52" y1="-683.26" x2="731.52" y2="-688.34" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <label x="731.52" y="-688.34" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
@@ -14497,12 +14429,12 @@ unfilled</description>
 </net>
 <net name="5VRAIL" class="0">
 <segment>
-<pinref part="PMOS1" gate="G$1" pin="D"/>
+<pinref part="PMOS1" gate="PMOS1" pin="D"/>
 <wire x1="751.84" y1="-619.76" x2="751.84" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <label x="751.84" y="-622.3" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="USB"/>
+<pinref part="FEATHERWING" gate="G$1" pin="USB"/>
 <wire x1="833.12" y1="-619.76" x2="828.04" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-619.76" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14525,7 +14457,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="!RESET"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="!RESET"/>
+<pinref part="FEATHERWING" gate="G$1" pin="!RESET"/>
 <wire x1="876.3" y1="-604.52" x2="881.38" y2="-604.52" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14537,7 +14469,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="AREF"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="AREF"/>
+<pinref part="FEATHERWING" gate="G$1" pin="AREF"/>
 <wire x1="876.3" y1="-609.6" x2="881.38" y2="-609.6" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-609.6" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14549,7 +14481,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA0"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA0"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA0"/>
 <wire x1="876.3" y1="-614.68" x2="881.38" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-614.68" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14561,7 +14493,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA1"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA1"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA1"/>
 <wire x1="876.3" y1="-617.22" x2="881.38" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14573,7 +14505,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA2"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA2"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA2"/>
 <wire x1="876.3" y1="-619.76" x2="881.38" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-619.76" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14585,7 +14517,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA3"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA3"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA3"/>
 <wire x1="876.3" y1="-622.3" x2="881.38" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14597,7 +14529,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIORX"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIORX"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIORX"/>
 <wire x1="876.3" y1="-637.54" x2="881.38" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-637.54" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14609,7 +14541,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOTX"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOTX"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOTX"/>
 <wire x1="876.3" y1="-640.08" x2="881.38" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-640.08" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14621,14 +14553,14 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="NC"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="NC"/>
+<pinref part="FEATHERWING" gate="G$1" pin="NC"/>
 <wire x1="876.3" y1="-642.62" x2="881.38" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-642.62" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="9" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO9"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO9"/>
 <wire x1="833.12" y1="-632.46" x2="828.04" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-632.46" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14645,7 +14577,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="EN"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="EN"/>
+<pinref part="FEATHERWING" gate="G$1" pin="EN"/>
 <wire x1="833.12" y1="-617.22" x2="830.58" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="830.58" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14657,13 +14589,13 @@ unfilled</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO6"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO6"/>
 <wire x1="833.12" y1="-635" x2="830.58" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO5"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO5"/>
 <wire x1="833.12" y1="-637.54" x2="830.58" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
@@ -14674,7 +14606,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIO13"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO13"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO13"/>
 <wire x1="833.12" y1="-622.3" x2="828.04" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14686,7 +14618,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIO11"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIO11"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO11"/>
 <wire x1="833.12" y1="-627.38" x2="828.04" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14698,7 +14630,7 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA4"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA4"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA4"/>
 <wire x1="876.3" y1="-624.84" x2="881.38" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-624.84" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
@@ -14710,14 +14642,14 @@ unfilled</description>
 <pinref part="MS2" gate="G$1" pin="GPIOA5"/>
 </segment>
 <segment>
-<pinref part="MS1" gate="G$1" pin="GPIOA5"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIOA5"/>
 <wire x1="876.3" y1="-627.38" x2="881.38" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="881.38" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="PMOS1" gate="G$1" pin="G"/>
+<pinref part="PMOS1" gate="PMOS1" pin="G"/>
 <wire x1="739.14" y1="-614.68" x2="741.68" y2="-614.68" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="739.14" y1="-614.68" x2="739.14" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="739.14" y1="-614.68" x2="739.14" y2="-604.52" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
@@ -14734,7 +14666,7 @@ unfilled</description>
 <wire x1="708.66" y1="-650.24" x2="708.66" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <wire x1="708.66" y1="-678.18" x2="713.74" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="PMOS2" gate="G$1" pin="G"/>
+<pinref part="PMOS2" gate="PMOS1" pin="G"/>
 <wire x1="713.74" y1="-678.18" x2="721.36" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="3V" gate="G$1" pin="2"/>
 </segment>
@@ -14767,7 +14699,7 @@ unfilled</description>
 <segment>
 <wire x1="833.12" y1="-629.92" x2="828.04" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-629.92" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIO10"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO10"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -14779,7 +14711,7 @@ unfilled</description>
 <segment>
 <wire x1="833.12" y1="-624.84" x2="828.04" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <label x="828.04" y="-624.84" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<pinref part="MS1" gate="G$1" pin="GPIO12"/>
+<pinref part="FEATHERWING" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
 <net name="N$12" class="0">
