@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="mm" altunit="mm"/>
@@ -229,7 +229,6 @@ I2C Pull Up</text>
 <text x="2.06" y="47" size="0.9" layer="21" ratio="10" rot="R90">Feather</text>
 <text x="2" y="1.8" size="0.9" layer="22" ratio="10" rot="MR90">Feather</text>
 <text x="4.5" y="1.8" size="0.9" layer="22" ratio="10" rot="MR90">Control</text>
-<circle x="20.38" y="50.05" radius="0.2" width="0.127" layer="21"/>
 <text x="21.8" y="45.4" size="0.8128" layer="21">GND</text>
 <text x="22.6" y="43.6" size="0.8128" layer="21">EN</text>
 <text x="6.21" y="40.14" size="1.016" layer="21" ratio="10">ARF</text>
@@ -246,7 +245,7 @@ I2C Pull Up</text>
 <wire x1="7.09" y1="48.29" x2="6" y2="47.2" width="0.127" layer="21" style="dashdot"/>
 <wire x1="6" y1="47.2" x2="2.4" y2="47.2" width="0.127" layer="21" style="dashdot"/>
 <text x="8.4" y="51.6" size="0.8128" layer="21">100pF</text>
-<text x="20.6" y="48.4" size="0.8128" layer="21">100k</text>
+<text x="20.325" y="47.675" size="0.8128" layer="21">100k</text>
 <text x="5.32" y="48.4" size="1.016" layer="21">-</text>
 <text x="25.55" y="48.66" size="1.016" layer="21">-</text>
 <text x="7.4" y="51" size="1.016" layer="22" rot="MR0">+IN</text>
@@ -689,7 +688,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="SOT23-6" urn="urn:adsk.eagle:footprint:13489254/1" locally_modified="yes">
 <description>6-SOT23, 0.95 mm pitch, 2.85 mm span, 2.55 X 1.60 X 1.30 mm body
 &lt;p&gt;6-pin SOT23 package with 0.95 mm pitch, 2.85 mm span with body size 2.55 X 1.60 X 1.30 mm&lt;/p&gt;</description>
-<circle x="-1.355" y="1.7525" radius="0.25" width="0" layer="21"/>
 <wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
 <wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
 <wire x1="0.85" y1="-1.55" x2="-0.85" y2="-1.55" width="0.12" layer="51"/>
@@ -704,6 +702,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="6" x="1.2873" y="0.95" dx="1.1456" dy="0.5971" layer="1"/>
 <text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="-3.683" y="0.635" size="1.778" layer="21">*</text>
 </package>
 <package name="SOT23-S" urn="urn:adsk.eagle:footprint:13526763/1" locally_modified="yes">
 <description>3-SOT23, 0.92 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
@@ -2508,7 +2507,10 @@ design rules under a new name.</description>
 <element name="RTC_INT" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="" x="16.88" y="25.33" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="16.88" y="24.187" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="PMOS3" library="eDNA" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:13489247/1" value="P-MOSFET" x="18.1" y="51.2" smashed="yes" rot="R180"/>
+<element name="PMOS3" library="eDNA" package="SOT23-6" package3d_urn="urn:adsk.eagle:package:13489247/1" value="P-MOSFET" x="18.1" y="51.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.9375" y="50.6" size="0.81" layer="51" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="18.1" y="53.3975" size="1.27" layer="27" rot="R180" align="top-center"/>
+</element>
 <element name="OUT+" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1" value="HIGHV-OUT" x="24.3" y="49.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.87" y="52.183" size="0.8" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="26.332" y="47.83" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
