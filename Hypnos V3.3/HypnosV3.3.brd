@@ -177,9 +177,9 @@
 <text x="8.92" y="7.06" size="1.016" layer="22" ratio="10" rot="MR0">DFU</text>
 <text x="20.62" y="7.06" size="1.016" layer="22" ratio="10" rot="MR0">SDA</text>
 <text x="20.62" y="9.6" size="1.016" layer="22" ratio="10" rot="MR0">SCL</text>
-<text x="20.62" y="17.22" size="1.016" layer="22" ratio="10" rot="MR0">CS</text>
+<text x="20.62" y="17.22" size="1.016" layer="22" ratio="10" rot="MR0">9</text>
 <text x="20.62" y="19.76" size="1.016" layer="22" ratio="10" rot="MR0">10</text>
-<text x="20.62" y="22.3" size="1.016" layer="22" ratio="10" rot="MR0">11</text>
+<text x="20.62" y="22.3" size="1.016" layer="22" ratio="10" rot="MR0">CS</text>
 <text x="20.62" y="24.84" size="1.016" layer="22" ratio="10" rot="MR0">INT</text>
 <text x="20.62" y="27.38" size="1.016" layer="22" ratio="10" rot="MR0">13</text>
 <text x="20.62" y="29.92" size="1.016" layer="22" ratio="10" rot="MR0">USB</text>
@@ -208,9 +208,9 @@ I2C Pull Up</text>
 <text x="19" y="30" size="1" layer="25" ratio="10">USB</text>
 <text x="19.7" y="27.3" size="1" layer="25" ratio="10">13</text>
 <text x="19.67" y="24.96" size="0.9" layer="25" ratio="10">INT</text>
-<text x="19.7" y="22.3" size="1" layer="25" ratio="10">11</text>
+<text x="19.7" y="22.3" size="1" layer="25" ratio="10">CS</text>
 <text x="19.7" y="19.8" size="1" layer="25" ratio="10">10</text>
-<text x="19.7" y="17.3" size="1" layer="25" ratio="10">CS</text>
+<text x="20.2" y="17.3" size="1" layer="25" ratio="10">9</text>
 <wire x1="24.5" y1="0.5" x2="26.5" y2="3" width="0.0762" layer="20" curve="100"/>
 <wire x1="3" y1="0.5" x2="1" y2="3" width="0.0762" layer="20" curve="-100"/>
 <text x="15.39" y="16.28" size="0.8128" layer="22" rot="MR0">10K</text>
@@ -1561,7 +1561,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="4"/>
 <contactref element="U$2" pad="3"/>
 <via x="20.99" y="26.78" extent="1-16" drill="0.508"/>
-<via x="7.61" y="8.81" extent="1-16" drill="0.508"/>
+<via x="7.625" y="8.945" extent="1-16" drill="0.508"/>
 <via x="12.5" y="13.5" extent="1-16" drill="0.508"/>
 <wire x1="16.26" y1="45.91" x2="16.26" y2="38.66" width="1.016" layer="16"/>
 <contactref element="JP1" pad="1"/>
@@ -1623,6 +1623,7 @@ design rules under a new name.</description>
 <via x="6.6" y="36.8" extent="1-16" drill="0.4"/>
 <via x="6.6" y="31.705" extent="1-16" drill="0.4"/>
 <via x="6.6" y="29.11" extent="1-16" drill="0.4"/>
+<via x="19.43" y="16.645" extent="1-16" drill="0.508"/>
 <wire x1="17.5" y1="40.155" x2="16.26" y2="38.66" width="0" layer="19" extent="1-16"/>
 <wire x1="13.64" y1="44.575" x2="16.26" y2="45.91" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -1666,9 +1667,8 @@ design rules under a new name.</description>
 <contactref element="CS" pad="2"/>
 <wire x1="16" y1="8.5" x2="16" y2="10.58" width="0.254" layer="16"/>
 <wire x1="16" y1="10.58" x2="15.83" y2="10.75" width="0.254" layer="16"/>
-<wire x1="15.83" y1="17.019934375" x2="15.83" y2="10.75" width="0.254" layer="16"/>
-<wire x1="15.83" y1="17.019934375" x2="16.372" y2="17.019934375" width="0.254" layer="16"/>
-<wire x1="16.372" y1="19.25" x2="16.372" y2="17.019934375" width="0.254" layer="16"/>
+<wire x1="16.372" y1="19.25" x2="15.83" y2="18.708" width="0.254" layer="16"/>
+<wire x1="15.83" y1="18.708" x2="15.83" y2="10.75" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="RTC" pad="16"/>
@@ -1950,10 +1950,7 @@ design rules under a new name.</description>
 <signal name="9">
 <contactref element="FEATHERWING" pad="21"/>
 <contactref element="MS2" pad="21"/>
-<wire x1="22.59" y1="17.71" x2="25.13" y2="17.71" width="0.3048" layer="1"/>
-<contactref element="CS" pad="1"/>
-<wire x1="17.388" y1="19.25" x2="21.05" y2="19.25" width="0.254" layer="16"/>
-<wire x1="21.05" y1="19.25" x2="22.59" y2="17.71" width="0.254" layer="16"/>
+<wire x1="25.13" y1="17.71" x2="22.59" y2="17.71" width="0.254" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="FEATHERWING" pad="27"/>
@@ -1988,6 +1985,9 @@ design rules under a new name.</description>
 <contactref element="FEATHERWING" pad="23"/>
 <contactref element="MS2" pad="23"/>
 <wire x1="22.59" y1="22.79" x2="25.13" y2="22.79" width="0.254" layer="1"/>
+<contactref element="CS" pad="1"/>
+<wire x1="17.388" y1="19.25" x2="20.928" y2="22.79" width="0.254" layer="16"/>
+<wire x1="20.928" y1="22.79" x2="22.59" y2="22.79" width="0.254" layer="16"/>
 </signal>
 <signal name="A4">
 <contactref element="FEATHERWING" pad="9"/>
@@ -2136,7 +2136,7 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC855007F"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC800AA00"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFFFFFF"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
@@ -2185,7 +2185,6 @@ design rules under a new name.</description>
 <approved hash="1,20,6c0ba9e9a9ce6c2c"/>
 <approved hash="19,16,70ce771872f715ef"/>
 <approved hash="19,16,97e806aa3ba66cd2"/>
-<approved hash="5,16,7ace7a7f25e5267c"/>
 <approved hash="19,1,5ca55a0aaa7eacd1"/>
 <approved hash="23,1,c3d24120f0dee9d0"/>
 <approved hash="19,1,62447a97bf8b404b"/>
@@ -2202,9 +2201,8 @@ design rules under a new name.</description>
 <approved hash="19,1,4389425df55df489"/>
 <approved hash="19,1,5cb933f2516fd51e"/>
 <approved hash="19,1,9e0b45ad93a9ceaa"/>
-<approved hash="19,16,28f0d6c9136be90e"/>
 <approved hash="19,16,e8a2a6f1f11f4641"/>
-<approved hash="19,16,b1b0809fbf576677"/>
+<approved hash="19,16,a4f570cdbd5b0a24"/>
 </errors>
 </board>
 </drawing>

@@ -9490,9 +9490,9 @@ unfilled</description>
 <attribute name="NAME" x="755.65" y="-540.385" size="1.778" layer="95"/>
 <attribute name="VALUE" x="745.49" y="-546.1" size="1.778" layer="96"/>
 </instance>
-<instance part="CS" gate="G$1" x="683.26" y="-645.16" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="685.8" y="-645.16" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="685.8" y="-645.668" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="CS" gate="G$1" x="683.26" y="-640.08" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="685.8" y="-640.08" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="685.8" y="-640.588" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="B1" gate="G$1" x="718.82" y="-551.18" smashed="yes" rot="R90" grouprefs="REAL_TIME_CLOCK">
 <attribute name="NAME" x="715.645" y="-553.72" size="1.27" layer="95" rot="R90"/>
@@ -9820,8 +9820,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="CS" gate="G$1" pin="2"/>
-<wire x1="688.34" y1="-645.16" x2="701.04" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="701.04" y="-645.16" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="688.34" y1="-640.08" x2="701.04" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="701.04" y="-640.08" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10101,13 +10101,12 @@ unfilled</description>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO9"/>
 <wire x1="833.12" y1="-632.46" x2="828.04" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-632.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="828.04" y="-632.46" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MS2" gate="G$1" pin="GPIO9"/>
-<wire x1="675.64" y1="-645.16" x2="678.18" y2="-645.16" width="0.1524" layer="91"/>
+<wire x1="675.64" y1="-645.16" x2="680.72" y2="-645.16" width="0.1524" layer="91"/>
 <label x="678.18" y="-645.16" size="1.778" layer="95"/>
-<pinref part="CS" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -10156,11 +10155,12 @@ unfilled</description>
 <wire x1="675.64" y1="-640.08" x2="678.18" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <label x="678.18" y="-640.08" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIO11"/>
+<pinref part="CS" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO11"/>
 <wire x1="833.12" y1="-627.38" x2="828.04" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<label x="828.04" y="-627.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A4" class="0">
