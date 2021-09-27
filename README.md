@@ -9,7 +9,7 @@ Go to [Hypnos Wiki](https://github.com/OPEnSLab-OSU/OPEnS-Lab-Home/wiki/Hypnos) 
 </p>
 
 ### Pinout
-![Hypnos V3.1 Pinout](https://user-images.githubusercontent.com/48141945/81597849-39e83080-937b-11ea-8c21-32288e75d8c6.png)
+![Hypnos V3.3 Pinout](https://user-images.githubusercontent.com/55998145/134957594-c0a1fe78-5293-4ce5-90a5-ed4f86fba0ce.png)
 
 ### Description
 The OPEnS-Hypnos board is a simple, low-cost circuit board that can be attached to an Adafruit Feather M0 microcontroller and a DS3231 real-time clock breakout board to enable shutting off power to the microcontroller until a timed or sensed event wakes it up.
@@ -34,7 +34,7 @@ MOSFET circuitry is introduced in HYPNOS to cut down power to peripherals. Addit
 * RTC INTerrupt pin: GPIO 12
 * 3.3V control pin: GPIO 5
 * 5V control pin: GPIO 6
-* SD chip select: GPIO 10
+* SD chip select: GPIO 11
 
 ### How to use this board
 <details>
@@ -65,7 +65,7 @@ Remember to power the 3.3Rail before initializing/communicating with uSD card, R
 
 * **+V rail**: This pin shares control with the 5V rail. Set `PIN 6` to **HIGH** for closed circuit (conduct), the PIN is pulled LOW for open circuit
 
-**SD card:** Chip Select `PIN 10`, **required** 3.3Rail power, normal SPI communication
+**SD card:** Chip Select `PIN 11`, **required** 3.3Rail power, normal SPI communication
 
 **RTC DS3231:** INT-errupt `PIN 12`, **required** 3.3Rail power, I2C pull up attached to 3.3Rail
 
