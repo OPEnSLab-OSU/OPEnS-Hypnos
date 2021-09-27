@@ -21,8 +21,7 @@ MOSFET circuitry is introduced in HYPNOS to cut down power to peripherals. Addit
 
 * `Hypnos V2.x` Power + RTC + microSD with FeatherWing footprint. Allow control on 3.3V and VUSB rail. Using MOSFET circuit and Feather deep sleep
 * `Hypnos V3.x` Upgraded from regular Hypnos. Can control one more rail of higher voltage (9-24V) at max 2.0 A continuous
-* `eDNA.lbr` Eagle library that has the push button, MOSFET footprints
-* `powerboard.lbr` Eagle library that has FeatherWing pin layout
+* `Hypnos V3.3.lbr` Eagle library that has all of the components the Hypnos contains such as the push button, MOSFET footprints, Feather pinout, etc. 
 
 ### Specification
 * Controlled 3v3 Rail (0.4 A continuous) and 5V Rail (0.5 A continuous from USB)
