@@ -5236,6 +5236,377 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="JSTPH2">
+<description>2-Pin JST PH Series Right-Angle Connector (+/- for batteries)</description>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="CR2032_4U_15728">
+<description>CR2032 Battery Holder</description>
+<wire x1="7.6" y1="3" x2="11" y2="3" width="0.2032" layer="51"/>
+<wire x1="11" y1="-3" x2="7.6" y2="-3" width="0.2032" layer="51"/>
+<wire x1="11.5" y1="2.5" x2="11.5" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="11.5" y1="-2.5" x2="11" y2="-3" width="0.2032" layer="51" curve="-90"/>
+<wire x1="11" y1="3" x2="11.5" y2="2.5" width="0.2032" layer="51" curve="-90"/>
+<circle x="-3.5" y="0" radius="11.5" width="0.2032" layer="51"/>
+<circle x="-3.5" y="0" radius="10.25" width="0.2032" layer="51"/>
+<circle x="-3.5" y="0" radius="11.75" width="0.2032" layer="21"/>
+<pad name="-" x="-10" y="0" drill="0.9"/>
+<pad name="+" x="10" y="0" drill="0.9"/>
+<text x="11.938" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="11.938" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="JSTSH2">
+<wire x1="2" y1="2.125" x2="-2" y2="2.125" width="0.127" layer="20"/>
+<wire x1="-2" y1="2.125" x2="-2" y2="-2.125" width="0.127" layer="20"/>
+<wire x1="-2" y1="-2.125" x2="2" y2="-2.125" width="0.127" layer="20"/>
+<wire x1="2" y1="-2.125" x2="2" y2="2.125" width="0.127" layer="20"/>
+<wire x1="-0.889" y1="2.159" x2="0.889" y2="2.159" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-2.032" y1="-2.159" x2="-1.143" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="2.032" y1="-2.159" x2="1.143" y2="-2.159" width="0.2032" layer="21"/>
+<smd name="NC2" x="1.8" y="1.125" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="NC1" x="-1.8" y="1.125" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="2" x="0.5" y="-2.55" dx="1.35" dy="0.5" layer="1" rot="R270"/>
+<smd name="1" x="-0.5" y="-2.55" dx="1.35" dy="0.5" layer="1" rot="R270"/>
+<text x="-1.063" y="-2.404" size="1.4224" layer="21" ratio="12" rot="R180">-</text>
+<text x="2.683" y="-2.404" size="1.4224" layer="21" ratio="12" rot="R180">+</text>
+<text x="2.794" y="1.397" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.794" y="0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CR1220">
+<wire x1="-10.16" y1="-1.778" x2="-6.604" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-6.604" y1="-1.778" x2="-6.604" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-6.604" y1="-3.81" x2="-3.81" y2="-6.604" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-6.604" x2="3.81" y2="-6.604" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-6.604" x2="6.604" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="6.604" y1="-3.81" x2="6.604" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="6.604" y1="-1.778" x2="10.16" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="-1.778" x2="10.16" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="1.778" x2="6.604" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="6.604" y1="1.778" x2="6.604" y2="6.604" width="0.2032" layer="21"/>
+<wire x1="6.604" y1="6.604" x2="5.334" y2="6.604" width="0.2032" layer="51"/>
+<wire x1="5.334" y1="6.604" x2="3.048" y2="4.318" width="0.2032" layer="51"/>
+<wire x1="3.048" y1="4.318" x2="-3.048" y2="4.318" width="0.2032" layer="51"/>
+<wire x1="-3.048" y1="4.318" x2="-5.334" y2="6.604" width="0.2032" layer="51"/>
+<wire x1="-5.334" y1="6.604" x2="-6.604" y2="6.604" width="0.2032" layer="51"/>
+<wire x1="-6.604" y1="6.604" x2="-6.604" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-6.604" y1="1.778" x2="-10.16" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-10.16" y1="1.778" x2="-10.16" y2="-1.778" width="0.2032" layer="21"/>
+<circle x="-8.2794" y="0" radius="0.9158" width="0.2032" layer="51"/>
+<circle x="8.4254" y="0.154" radius="0.9158" width="0.2032" layer="51"/>
+<smd name="-" x="0" y="0" dx="6.35" dy="6.35" layer="1" roundness="100" cream="no"/>
+<smd name="+$1" x="-8.2254" y="0" dx="3.2" dy="3.2" layer="1"/>
+<smd name="+$2" x="8.2254" y="0" dx="3.2" dy="3.2" layer="1"/>
+<text x="-3.302" y="-7.86" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="-3.302" y="-8.868" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<circle x="0" y="0" radius="6.282115625" width="0" layer="29"/>
+<wire x1="-6.604" y1="6.604" x2="-6.604" y2="1.778" width="0.2032" layer="51"/>
+<wire x1="-6.604" y1="1.778" x2="-10.16" y2="1.778" width="0.2032" layer="51"/>
+<wire x1="-10.16" y1="1.778" x2="-10.16" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="-10.16" y1="-1.778" x2="-6.604" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="-6.604" y1="-1.778" x2="-6.604" y2="-3.81" width="0.2032" layer="51"/>
+<wire x1="-6.604" y1="-3.81" x2="-3.81" y2="-6.604" width="0.2032" layer="51"/>
+<wire x1="-3.81" y1="-6.604" x2="3.81" y2="-6.604" width="0.2032" layer="51"/>
+<wire x1="3.81" y1="-6.604" x2="6.604" y2="-3.81" width="0.2032" layer="51"/>
+<wire x1="6.604" y1="-3.81" x2="6.604" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="6.604" y1="-1.778" x2="10.16" y2="-1.778" width="0.2032" layer="51"/>
+<wire x1="10.16" y1="-1.778" x2="10.16" y2="1.778" width="0.2032" layer="51"/>
+<wire x1="10.16" y1="1.778" x2="6.604" y2="1.778" width="0.2032" layer="51"/>
+<wire x1="6.604" y1="1.778" x2="6.604" y2="6.604" width="0.2032" layer="51"/>
+</package>
+<package name="JSTPH2_NOTHERMALS">
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.2032" layer="51"/>
+<wire x1="4" y1="3" x2="4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="3" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2" x2="-3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="-3.2" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="4" y1="-4.5" x2="3.2" y2="-4.5" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-4.5" x2="3.2" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-2.25" y1="3" x2="2.25" y2="3" width="0.2032" layer="21"/>
+<wire x1="4" y1="-0.5" x2="4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.5" x2="3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-4.5" x2="3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.15" y1="-2" x2="1.75" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.75" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-2" x2="-3.15" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.15" y1="-4.5" x2="-4" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.5" x2="-4" y2="-0.5" width="0.2032" layer="21"/>
+<smd name="1" x="-1" y="-3.7" dx="1" dy="4.6" layer="1" thermals="no"/>
+<smd name="2" x="1" y="-3.7" dx="1" dy="4.6" layer="1" thermals="no"/>
+<smd name="NC1" x="-3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="3.4" y="1.5" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<text x="-2.2225" y="1.9685" size="0.8128" layer="25" ratio="18">&gt;Name</text>
+<text x="-2.2225" y="1.27" size="0.4064" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="CR2032_4U_05581">
+<smd name="POS" x="14.65" y="0" dx="4" dy="3.5" layer="1" rot="R90"/>
+<smd name="NEG" x="-14.65" y="0" dx="4" dy="3.5" layer="1" rot="R90"/>
+<wire x1="-11" y1="-8" x2="-11" y2="8" width="0.127" layer="51"/>
+<wire x1="-11" y1="8" x2="11" y2="8" width="0.127" layer="51"/>
+<wire x1="11" y1="8" x2="11" y2="-8" width="0.127" layer="51"/>
+<wire x1="11" y1="-8" x2="-11" y2="-8" width="0.127" layer="51"/>
+<wire x1="-11.2" y1="8.2" x2="11.2" y2="8.2" width="0.127" layer="21"/>
+<wire x1="11.2" y1="8.2" x2="11.2" y2="-8.2" width="0.127" layer="21"/>
+<wire x1="11.2" y1="-8.2" x2="-11.2" y2="-8.2" width="0.127" layer="21"/>
+<wire x1="-11.2" y1="-8.2" x2="-11.2" y2="8.2" width="0.127" layer="21"/>
+<text x="-10.862" y="9.327" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-10.862" y="8.565" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<text x="8.89" y="0" size="2.54" layer="21" ratio="15" align="center">+</text>
+<text x="-8.89" y="0" size="2.54" layer="21" ratio="15" align="center">-</text>
+<rectangle x1="-5.5" y1="-3.5" x2="5.5" y2="3.5" layer="35"/>
+</package>
+<package name="CR2032_SMT_BAT-HLD-001">
+<smd name="+$1" x="-11.43" y="0" dx="2.54" dy="5.08" layer="1"/>
+<smd name="+$2" x="11.43" y="0" dx="2.54" dy="5.08" layer="1"/>
+<text x="-10.414" y="8.142" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="-10.414" y="-8.36" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<smd name="-" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="9.525" width="0" layer="29"/>
+<wire x1="-7.5" y1="7.2" x2="7.3" y2="7.2" width="0.127" layer="21"/>
+<wire x1="7.3" y1="7.2" x2="7.6" y2="7.2" width="0.127" layer="51"/>
+<wire x1="7.6" y1="7.2" x2="10.3" y2="4.5" width="0.127" layer="21"/>
+<wire x1="10.3" y1="4.5" x2="10.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="10.3" y1="2.4" x2="10.3" y2="0.4" width="0.127" layer="51"/>
+<wire x1="10.3" y1="0.4" x2="10.3" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-0.7" x2="10.3" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-2.6" x2="10.3" y2="-4.2" width="0.127" layer="21"/>
+<wire x1="10.3" y1="-4.2" x2="7.3" y2="-7.2" width="0.127" layer="21"/>
+<wire x1="7.3" y1="-7.2" x2="4.3" y2="-7.5" width="0.127" layer="21" curve="-78.578779"/>
+<wire x1="4.3" y1="-7.5" x2="-4.6" y2="-7.5" width="0.127" layer="21" curve="67.15757"/>
+<wire x1="-4.6" y1="-7.5" x2="-7.6" y2="-7.2" width="0.127" layer="21" curve="-78.578779"/>
+<wire x1="-7.6" y1="-7.2" x2="-10.4" y2="-4.4" width="0.127" layer="21"/>
+<wire x1="-10.4" y1="-4.4" x2="-10.4" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-10.4" y1="-2.6" x2="-10.4" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-10.4" y1="-0.6" x2="-10.4" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-10.4" y1="0.5" x2="-10.4" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-10.4" y1="2.5" x2="-10.4" y2="4.3" width="0.127" layer="21"/>
+<wire x1="-10.4" y1="4.3" x2="-7.5" y2="7.2" width="0.127" layer="21"/>
+<wire x1="-10.4" y1="2.5" x2="-11.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-11.5" y1="2.5" x2="-11.5" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-11.5" y1="0.5" x2="-10.4" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-10.4" y1="-0.6" x2="-11.5" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-11.5" y1="-0.6" x2="-11.5" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-11.5" y1="-2.6" x2="-10.4" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="10.3" y1="2.4" x2="11.3" y2="2.4" width="0.127" layer="51"/>
+<wire x1="11.3" y1="2.4" x2="11.3" y2="0.4" width="0.127" layer="51"/>
+<wire x1="11.3" y1="0.4" x2="10.3" y2="0.4" width="0.127" layer="51"/>
+<wire x1="10.3" y1="-0.7" x2="11.3" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="11.3" y1="-0.7" x2="11.3" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="11.3" y1="-2.6" x2="10.3" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-7.2" y1="-4.7" x2="-4" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="-4" y1="-4.7" x2="-4" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="-4" y1="-0.2" x2="-4" y2="1" width="0.127" layer="51"/>
+<wire x1="-4" y1="1" x2="-4" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-4" y1="2.3" x2="-5.6" y2="3.9" width="0.127" layer="51" curve="90"/>
+<wire x1="-5.6" y1="3.9" x2="-5.7" y2="3.9" width="0.127" layer="51"/>
+<wire x1="-5.7" y1="3.9" x2="-7.2" y2="2.4" width="0.127" layer="51" curve="90"/>
+<wire x1="-7.2" y1="2.4" x2="-7.2" y2="1" width="0.127" layer="51"/>
+<wire x1="-7.2" y1="1" x2="-7.2" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="-7.2" y1="-0.2" x2="-7.2" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="3.9" y1="-4.7" x2="3.9" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="3.9" y1="-0.2" x2="3.9" y2="1" width="0.127" layer="51"/>
+<wire x1="3.9" y1="1" x2="3.9" y2="2.3" width="0.127" layer="51"/>
+<wire x1="3.9" y1="2.3" x2="5.5" y2="3.9" width="0.127" layer="51" curve="-90"/>
+<wire x1="5.5" y1="3.9" x2="5.6" y2="3.9" width="0.127" layer="51"/>
+<wire x1="5.6" y1="3.9" x2="7" y2="2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="7" y1="2.5" x2="7" y2="1" width="0.127" layer="51"/>
+<wire x1="7" y1="1" x2="7" y2="-0.2" width="0.127" layer="51"/>
+<wire x1="7" y1="-0.2" x2="7" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="7" y1="-4.7" x2="3.9" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="7" y1="1" x2="3.9" y2="1" width="0.127" layer="51"/>
+<wire x1="-4" y1="1" x2="-7.2" y2="1" width="0.127" layer="51"/>
+<wire x1="3.9" y1="-0.2" x2="7" y2="-0.2" width="0.127" layer="51" curve="-298.397108"/>
+<wire x1="-7.2" y1="-0.2" x2="-4" y2="-0.2" width="0.127" layer="51" curve="-297.75506"/>
+<circle x="0" y="0" radius="10.16" width="0.127" layer="51"/>
+</package>
+<package name="CR1220-2">
+<hole x="3.95" y="0" drill="1.5"/>
+<hole x="-3.5" y="0" drill="1.5"/>
+<smd name="-" x="-7.6" y="0" dx="4" dy="2" layer="1"/>
+<smd name="+" x="8.29" y="0" dx="4" dy="2" layer="1"/>
+<circle x="0.2" y="0" radius="7.39" width="0.3048" layer="51"/>
+<circle x="0.2" y="0" radius="6.5" width="0.3048" layer="51"/>
+<wire x1="-7.4" y1="1.6" x2="-7.2" y2="2.5" width="0.3048" layer="21"/>
+<wire x1="-7.2" y1="2.5" x2="-6.8" y2="3.5" width="0.3048" layer="21"/>
+<wire x1="-6.8" y1="3.5" x2="-6.3" y2="4.5" width="0.3048" layer="21"/>
+<wire x1="-6.3" y1="4.5" x2="-5.4" y2="5.5" width="0.3048" layer="21"/>
+<wire x1="-5.4" y1="5.5" x2="-4.5" y2="6.3" width="0.3048" layer="21"/>
+<wire x1="-4.5" y1="6.3" x2="-3.3" y2="7" width="0.3048" layer="21"/>
+<wire x1="-3.3" y1="7" x2="-2.3" y2="7.5" width="0.3048" layer="21"/>
+<wire x1="-2.3" y1="7.5" x2="-0.8" y2="7.9" width="0.3048" layer="21"/>
+<wire x1="-0.8" y1="7.9" x2="0.7" y2="7.9" width="0.3048" layer="21"/>
+<wire x1="0.7" y1="7.9" x2="2" y2="7.7" width="0.3048" layer="21"/>
+<wire x1="-7.6" y1="-1.5" x2="-7.2" y2="-2.9" width="0.3048" layer="21"/>
+<wire x1="-7.2" y1="-2.9" x2="-6.5" y2="-4.2" width="0.3048" layer="21"/>
+<wire x1="-6.5" y1="-4.2" x2="-5.7" y2="-5.3" width="0.3048" layer="21"/>
+<wire x1="-5.7" y1="-5.3" x2="-4.9" y2="-6.1" width="0.3048" layer="21"/>
+<wire x1="-4.9" y1="-6.1" x2="-3.9" y2="-6.8" width="0.3048" layer="21"/>
+<wire x1="-3.9" y1="-6.8" x2="-2.7" y2="-7.4" width="0.3048" layer="21"/>
+<wire x1="-2.7" y1="-7.4" x2="-1.3" y2="-7.8" width="0.3048" layer="21"/>
+<wire x1="-1.3" y1="-7.8" x2="0" y2="-8" width="0.3048" layer="21"/>
+<wire x1="0" y1="-8" x2="1.2" y2="-7.9" width="0.3048" layer="21"/>
+<wire x1="1.2" y1="-7.9" x2="2.5" y2="-7.6" width="0.3048" layer="21"/>
+<text x="-1.602" y="0.14" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="-1.602" y="-0.868" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="3.95" y1="7.1" x2="7.1" y2="7.1" width="0.3048" layer="21"/>
+<wire x1="3.95" y1="-7.1" x2="7.1" y2="-7.1" width="0.3048" layer="21"/>
+<wire x1="7.1" y1="7.1" x2="7.1" y2="3.8" width="0.3048" layer="21"/>
+<wire x1="7.1" y1="3.8" x2="7.6" y2="2.9" width="0.3048" layer="21"/>
+<wire x1="7.6" y1="2.9" x2="7.9" y2="2" width="0.3048" layer="21"/>
+<wire x1="7.9" y1="2" x2="7.9" y2="1.6" width="0.3048" layer="21"/>
+<wire x1="7.1" y1="-7.1" x2="7.1" y2="-3.9" width="0.3048" layer="21"/>
+<wire x1="7.1" y1="-3.9" x2="7.6" y2="-2.9" width="0.3048" layer="21"/>
+<wire x1="7.6" y1="-2.9" x2="7.9" y2="-1.7" width="0.3048" layer="21"/>
+<wire x1="2.4" y1="-7.6" x2="3.9" y2="-7.1" width="0.3048" layer="21"/>
+<wire x1="2" y1="7.7" x2="3.9" y2="7.1" width="0.3048" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BATTERY">
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="3.175" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
+<text x="1.27" y="-1.143" size="1.27" layer="94" rot="R270">+</text>
+<pin name="-" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
+<pin name="+" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="0.762" y1="2.286" x2="0.762" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.254" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="-0.254" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="-0.254" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="-1.143" size="1.27" layer="94" rot="R270">-</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BATTERY" prefix="B" uservalue="yes">
+<description>&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;CR1220 SMT&lt;/b&gt; - Digikey: 3001K-ND&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;CD2032 BAT-HLD-001&lt;/b&gt; - Digikey: BAT-HLD-001-ND&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JSTPH2">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CR2032" package="CR2032_4U_15728">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SH2" package="JSTSH2">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CR1220_SMT" package="CR1220">
+<connects>
+<connect gate="G$1" pin="+" pad="+$1"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PH2_NOTHERMALS" package="JSTPH2_NOTHERMALS">
+<connects>
+<connect gate="G$1" pin="+" pad="2"/>
+<connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CR2032_SQUARE" package="CR2032_4U_05581">
+<connects>
+<connect gate="G$1" pin="+" pad="POS"/>
+<connect gate="G$1" pin="-" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CR2032_BAT-HLD-001" package="CR2032_SMT_BAT-HLD-001">
+<connects>
+<connect gate="G$1" pin="+" pad="+$1 +$2"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CR1220_2" package="CR1220-2">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="eDNA">
 <packages>
 <package name="PUSHBUTTON_SMD">
@@ -9224,10 +9595,10 @@ unfilled</description>
 </class>
 </classes>
 <groups>
+<schematic_group name="REAL_TIME_CLOCK"/>
 <schematic_group name="MOSFET_CIRCUITRY"/>
 <schematic_group name="CONTROLLED_LOGIC"/>
 <schematic_group name="SD_CARD"/>
-<schematic_group name="REAL_TIME_CLOCK"/>
 </groups>
 <parts>
 <part name="3V|5V" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="1X02_NO_SILK" package3d_urn="urn:adsk.eagle:package:38051/1"/>
@@ -9238,6 +9609,7 @@ unfilled</description>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="MICROSD" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MICROSD" device="" package3d_urn="urn:adsk.eagle:package:6240723/1"/>
 <part name="R2" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:11396451" deviceset="WSLP1206R0500FEA" device="" package3d_urn="urn:adsk.eagle:package:10872898/2" value="30k"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9255,6 +9627,7 @@ unfilled</description>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="100nF"/>
 <part name="INT" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X1" device="CB" package3d_urn="urn:adsk.eagle:package:6240841/1"/>
 <part name="CS" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="SD Select"/>
+<part name="B1" library="microbuilder" deviceset="BATTERY" device="CR1220_SMT" value="CR1220"/>
 <part name="U$1" library="eDNA" deviceset="PUSH_BUTTON" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U$2" library="eDNA" deviceset="PUSH_BUTTON" device=""/>
@@ -9285,227 +9658,234 @@ unfilled</description>
 <part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="BT1" library="1056" deviceset="1056" device=""/>
 <part name="J1" library="MEM2051-00-195-00-A_REVD1" deviceset="MEM2051-00-195-00-A_REVD1" device="MEM2051-00-195-00-A_GCT_MEM2051-00-195-00-A"/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D2" library="semicon-smd-ipc" library_urn="urn:adsk.eagle:library:353" deviceset="D-" device="SOD123" package3d_urn="urn:adsk.eagle:package:26308/2"/>
 <part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="100nF"/>
-<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="604.52" y="-563.88" size="2.54" layer="97" font="vector" rot="R90" grouprefs="REAL_TIME_CLOCK">Decoupling</text>
-<text x="728.98" y="-548.64" size="1.778" layer="91" grouprefs="REAL_TIME_CLOCK">Manually Wake Up (Testing purpose_)</text>
-<text x="833.12" y="-662.94" size="1.778" layer="91" grouprefs="CONTROLLED_LOGIC">Manually probing headers (testing purpose)</text>
-<text x="713.74" y="-680.72" size="1.778" layer="91" grouprefs="MOSFET_CIRCUITRY">30k</text>
-<text x="782.32" y="-619.76" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">S</text>
-<text x="782.32" y="-612.14" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">D</text>
-<text x="698.5" y="-688.34" size="2.54" layer="91" grouprefs="MOSFET_CIRCUITRY">Handle Max 0.4 A</text>
-<frame x1="586.74" y1="-716.28" x2="934.72" y2="-510.54" columns="8" rows="5" layer="91"/>
+<text x="624.84" y="-563.88" size="2.54" layer="97" font="vector" rot="R90" grouprefs="REAL_TIME_CLOCK">Decoupling</text>
+<text x="749.3" y="-548.64" size="1.778" layer="91" grouprefs="REAL_TIME_CLOCK">Manually Wake Up (Testing purpose_)</text>
+<text x="848.36" y="-662.94" size="1.778" layer="91" grouprefs="CONTROLLED_LOGIC">Manually probing headers (testing purpose)</text>
+<text x="718.82" y="-683.26" size="1.778" layer="91" grouprefs="MOSFET_CIRCUITRY">30k</text>
+<text x="787.4" y="-622.3" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">S</text>
+<text x="787.4" y="-614.68" size="1.778" layer="97" grouprefs="MOSFET_CIRCUITRY">D</text>
+<text x="703.58" y="-690.88" size="2.54" layer="91" grouprefs="MOSFET_CIRCUITRY">Handle Max 0.4 A</text>
+<frame x1="586.74" y1="-713.74" x2="944.88" y2="-492.76" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="3V|5V" gate="G$1" x="840.74" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="NAME" x="834.39" y="-652.145" size="1.778" layer="95"/>
-<attribute name="VALUE" x="834.39" y="-662.94" size="1.778" layer="96"/>
+<instance part="3V|5V" gate="G$1" x="855.98" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="NAME" x="849.63" y="-652.145" size="1.778" layer="95"/>
+<attribute name="VALUE" x="849.63" y="-662.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="622.3" y="-627.38" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="619.76" y="-629.92" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="627.38" y="-629.92" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="624.84" y="-632.46" size="1.778" layer="96"/>
 </instance>
-<instance part="RTC" gate="A" x="632.46" y="-543.56" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="NAME" x="663.2956" y="-534.4414" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="662.6606" y="-536.9814" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="RTC" gate="A" x="652.78" y="-543.56" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="NAME" x="683.6156" y="-534.4414" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="682.9806" y="-536.9814" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="GND13" gate="1" x="708.66" y="-563.88" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="VALUE" x="706.12" y="-566.42" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="728.98" y="-563.88" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="VALUE" x="726.44" y="-566.42" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="609.6" y="-548.64" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="NAME" x="610.616" y="-548.005" size="1.778" layer="95"/>
-<attribute name="VALUE" x="610.616" y="-552.831" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="629.92" y="-548.64" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="NAME" x="630.936" y="-548.005" size="1.778" layer="95"/>
+<attribute name="VALUE" x="630.936" y="-552.831" size="1.778" layer="96"/>
 </instance>
-<instance part="GND14" gate="1" x="609.6" y="-563.88" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="VALUE" x="607.06" y="-566.42" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="629.92" y="-563.88" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="VALUE" x="627.38" y="-566.42" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="604.52" y="-675.64" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="604.52" y="-675.894" size="1.778" layer="96" align="top-center"/>
+<instance part="GND3" gate="1" x="609.6" y="-678.18" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="609.6" y="-678.434" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="754.38" y="-558.8" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="VALUE" x="754.38" y="-559.054" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="774.7" y="-558.8" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="VALUE" x="774.7" y="-559.054" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="MICROSD" gate="G$1" x="901.7" y="-546.1" smashed="yes" grouprefs="SD_CARD"/>
-<instance part="R2" gate="G$1" x="713.74" y="-673.1" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="712.2414" y="-676.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="717.042" y="-676.91" size="1.778" layer="96" rot="R90"/>
+<instance part="GND9" gate="1" x="739.14" y="-563.88" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="VALUE" x="739.14" y="-564.134" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND8" gate="1" x="718.82" y="-642.62" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="716.28" y="-645.16" size="1.778" layer="96"/>
+<instance part="MICROSD" gate="G$1" x="914.4" y="-546.1" smashed="yes" grouprefs="SD_CARD"/>
+<instance part="R2" gate="G$1" x="718.82" y="-675.64" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="717.3214" y="-679.45" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="722.122" y="-679.45" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="718.82" y="-635" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="720.3186" y="-631.19" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="715.518" y="-631.19" size="1.778" layer="96" rot="R270"/>
+<instance part="GND8" gate="1" x="723.9" y="-645.16" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="721.36" y="-647.7" size="1.778" layer="96"/>
 </instance>
-<instance part="FEATHERWING" gate="G$1" x="871.22" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC">
-<attribute name="VALUE" x="866.14" y="-596.9" size="1.778" layer="96" rot="MR0"/>
+<instance part="R1" gate="G$1" x="723.9" y="-637.54" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="725.3986" y="-633.73" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="720.598" y="-633.73" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="607.06" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="604.52" y="-619.76" size="1.778" layer="96" rot="R90"/>
+<instance part="FEATHERWING" gate="G$1" x="886.46" y="-599.44" smashed="yes" rot="MR270" grouprefs="CONTROLLED_LOGIC">
+<attribute name="VALUE" x="881.38" y="-596.9" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="PMOS1" gate="PMOS1" x="751.84" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="753.364" y="-612.394" size="1.778" layer="95"/>
-<attribute name="VALUE" x="753.11" y="-615.188" size="1.778" layer="96"/>
+<instance part="+3V2" gate="G$1" x="612.14" y="-617.22" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="609.6" y="-622.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="PMOS2" gate="PMOS1" x="731.52" y="-678.18" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="734.06" y="-675.64" size="1.778" layer="95"/>
-<attribute name="VALUE" x="734.06" y="-680.72" size="1.778" layer="96"/>
+<instance part="PMOS1" gate="PMOS1" x="756.92" y="-617.22" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="758.444" y="-614.934" size="1.778" layer="95"/>
+<attribute name="VALUE" x="758.19" y="-617.728" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V4" gate="G$1" x="731.52" y="-662.94" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="731.52" y="-660.4" size="1.778" layer="96" rot="R180"/>
+<instance part="PMOS2" gate="PMOS1" x="736.6" y="-680.72" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="739.14" y="-678.18" size="1.778" layer="95"/>
+<attribute name="VALUE" x="739.14" y="-683.26" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="739.14" y="-637.54" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="739.14" y="-637.794" size="1.778" layer="96" align="top-center"/>
+<instance part="+3V4" gate="G$1" x="736.6" y="-665.48" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="736.6" y="-662.94" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND2" gate="1" x="899.16" y="-617.22" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="VALUE" x="896.62" y="-619.76" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="744.22" y="-640.08" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="744.22" y="-640.334" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND4" gate="1" x="878.84" y="-571.5" smashed="yes" grouprefs="SD_CARD">
-<attribute name="VALUE" x="876.3" y="-574.04" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="914.4" y="-617.22" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="VALUE" x="911.86" y="-619.76" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="678.18" y="-665.48" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="676.6814" y="-669.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="681.482" y="-669.29" size="1.778" layer="96" rot="R90"/>
+<instance part="GND4" gate="1" x="891.54" y="-571.5" smashed="yes" grouprefs="SD_CARD">
+<attribute name="VALUE" x="889" y="-574.04" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="685.8" y="-665.48" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="684.3014" y="-669.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="689.102" y="-669.29" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="683.26" y="-668.02" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="681.7614" y="-671.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="686.562" y="-671.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="868.68" y="-558.8" smashed="yes" grouprefs="SD_CARD">
-<attribute name="NAME" x="869.696" y="-558.165" size="1.778" layer="95"/>
-<attribute name="VALUE" x="869.696" y="-562.991" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="690.88" y="-668.02" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="689.3814" y="-671.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="694.182" y="-671.83" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="INT" gate="G$1" x="751.84" y="-541.02" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="NAME" x="755.65" y="-540.385" size="1.778" layer="95"/>
-<attribute name="VALUE" x="745.49" y="-546.1" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="881.38" y="-558.8" smashed="yes" grouprefs="SD_CARD">
+<attribute name="NAME" x="882.396" y="-558.165" size="1.778" layer="95"/>
+<attribute name="VALUE" x="882.396" y="-562.991" size="1.778" layer="96"/>
 </instance>
-<instance part="CS" gate="G$1" x="683.26" y="-640.08" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="685.8" y="-640.08" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="685.8" y="-640.588" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="INT" gate="G$1" x="772.16" y="-541.02" smashed="yes" grouprefs="REAL_TIME_CLOCK">
+<attribute name="NAME" x="775.97" y="-540.385" size="1.778" layer="95"/>
+<attribute name="VALUE" x="765.81" y="-546.1" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="622.3" y="-617.22" smashed="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<instance part="GND5" gate="1" x="612.14" y="-609.6" smashed="yes" rot="R180" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="612.14" y="-609.346" size="1.778" layer="96" rot="R180" align="top-center"/>
+<instance part="CS" gate="G$1" x="688.34" y="-642.62" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="690.88" y="-642.62" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="690.88" y="-643.128" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="U$2" gate="G$1" x="749.3" y="-556.26" smashed="yes" grouprefs="REAL_TIME_CLOCK"/>
-<instance part="JP1" gate="G$1" x="612.14" y="-670.56" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="605.79" y="-667.385" size="1.778" layer="95"/>
-<attribute name="VALUE" x="605.79" y="-675.64" size="1.778" layer="96"/>
+<instance part="B1" gate="G$1" x="739.14" y="-551.18" smashed="yes" rot="R90" grouprefs="REAL_TIME_CLOCK">
+<attribute name="NAME" x="735.965" y="-553.72" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="744.22" y="-553.72" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="764.54" y="-668.02" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="759.968" y="-661.416" size="1.778" layer="95"/>
-<attribute name="VALUE" x="759.968" y="-663.575" size="1.778" layer="96"/>
+<instance part="U$1" gate="G$1" x="627.38" y="-619.76" smashed="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<instance part="GND5" gate="1" x="617.22" y="-612.14" smashed="yes" rot="R180" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="617.22" y="-611.886" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="LED2" gate="G$1" x="764.54" y="-678.18" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="759.968" y="-681.736" size="1.778" layer="95"/>
-<attribute name="VALUE" x="759.968" y="-683.895" size="1.778" layer="96"/>
+<instance part="U$2" gate="G$1" x="769.62" y="-556.26" smashed="yes" grouprefs="REAL_TIME_CLOCK"/>
+<instance part="JP1" gate="G$1" x="617.22" y="-673.1" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="610.87" y="-669.925" size="1.778" layer="95"/>
+<attribute name="VALUE" x="610.87" y="-678.18" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="772.16" y="-668.02" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="768.35" y="-666.5214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="768.35" y="-671.322" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="769.62" y="-670.56" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="765.048" y="-663.956" size="1.778" layer="95"/>
+<attribute name="VALUE" x="765.048" y="-666.115" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="772.16" y="-678.18" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="768.35" y="-676.6814" size="1.778" layer="95"/>
-<attribute name="VALUE" x="768.35" y="-681.482" size="1.778" layer="96"/>
+<instance part="LED2" gate="G$1" x="769.62" y="-680.72" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="765.048" y="-684.276" size="1.778" layer="95"/>
+<attribute name="VALUE" x="765.048" y="-686.435" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="754.38" y="-670.56" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="751.84" y="-673.1" size="1.778" layer="96"/>
+<instance part="R8" gate="G$1" x="777.24" y="-670.56" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="773.43" y="-669.0614" size="1.778" layer="95"/>
+<attribute name="VALUE" x="773.43" y="-673.862" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="754.38" y="-680.72" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="751.84" y="-683.26" size="1.778" layer="96"/>
+<instance part="R9" gate="G$1" x="777.24" y="-680.72" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="773.43" y="-679.2214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="773.43" y="-684.022" size="1.778" layer="96"/>
 </instance>
-<instance part="MS2" gate="G$1" x="637.54" y="-612.14" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="643.128" y="-609.854" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="759.46" y="-673.1" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="756.92" y="-675.64" size="1.778" layer="96"/>
 </instance>
-<instance part="RTC_INT" gate="G$1" x="685.8" y="-637.54" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="688.34" y="-638.048" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="GND11" gate="1" x="759.46" y="-683.26" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="756.92" y="-685.8" size="1.778" layer="96"/>
 </instance>
-<instance part="PMOS3" gate="G$1" x="782.32" y="-614.68" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="787.146" y="-612.902" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="787.146" y="-615.442" size="1.778" layer="96" font="vector"/>
+<instance part="MS2" gate="G$1" x="642.62" y="-614.68" smashed="yes" rot="R270" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="648.208" y="-612.394" size="1.778" layer="96"/>
 </instance>
-<instance part="OUT+" gate="G$1" x="772.16" y="-655.32" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="765.81" y="-649.605" size="1.778" layer="95"/>
+<instance part="RTC_INT" gate="G$1" x="690.88" y="-640.08" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="693.42" y="-640.588" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="+IN" gate="G$1" x="741.68" y="-655.32" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="735.33" y="-649.605" size="1.778" layer="95"/>
+<instance part="PMOS3" gate="G$1" x="787.4" y="-617.22" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="792.226" y="-615.442" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="792.226" y="-617.982" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="TP1" gate="G$1" x="889" y="-652.78" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="NAME" x="887.73" y="-651.51" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="890.27" y="-654.05" size="1.778" layer="97"/>
+<instance part="OUT+" gate="G$1" x="777.24" y="-657.86" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="770.89" y="-652.145" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="889" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
-<attribute name="NAME" x="887.73" y="-656.59" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="890.27" y="-659.13" size="1.778" layer="97"/>
+<instance part="+IN" gate="G$1" x="746.76" y="-657.86" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="740.41" y="-652.145" size="1.778" layer="95"/>
 </instance>
-<instance part="R4" gate="G$1" x="739.14" y="-599.44" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="737.6414" y="-603.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="742.442" y="-603.25" size="1.778" layer="96" rot="R90"/>
+<instance part="TP1" gate="G$1" x="904.24" y="-652.78" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="NAME" x="902.97" y="-651.51" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="905.51" y="-654.05" size="1.778" layer="97"/>
 </instance>
-<instance part="GND12" gate="1" x="777.24" y="-637.54" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="VALUE" x="777.24" y="-637.794" size="1.778" layer="96" align="top-center"/>
+<instance part="TP2" gate="G$1" x="904.24" y="-657.86" smashed="yes" grouprefs="CONTROLLED_LOGIC">
+<attribute name="NAME" x="902.97" y="-656.59" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="905.51" y="-659.13" size="1.778" layer="97"/>
 </instance>
-<instance part="R11" gate="G$1" x="777.24" y="-599.44" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="775.7414" y="-603.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="780.542" y="-603.25" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="744.22" y="-601.98" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="742.7214" y="-605.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="747.522" y="-605.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND15" gate="1" x="876.3" y="-533.4" smashed="yes" grouprefs="SD_CARD">
-<attribute name="VALUE" x="873.76" y="-535.94" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="782.32" y="-640.08" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="VALUE" x="782.32" y="-640.334" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="Q1" gate="G$1" x="736.6" y="-627.38" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="741.68" y="-627.38" size="1.778" layer="95"/>
-<attribute name="VALUE" x="741.68" y="-629.92" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="782.32" y="-601.98" smashed="yes" rot="R90" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="780.8214" y="-605.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="785.622" y="-605.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="G$1" x="774.7" y="-627.38" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="779.78" y="-627.38" size="1.778" layer="95"/>
-<attribute name="VALUE" x="779.78" y="-629.92" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="889" y="-533.4" smashed="yes" grouprefs="SD_CARD">
+<attribute name="VALUE" x="886.46" y="-535.94" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="868.68" y="-548.64" smashed="yes" rot="R270" grouprefs="SD_CARD">
-<attribute name="NAME" x="870.458" y="-546.1" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="864.997" y="-546.1" size="1.778" layer="96" rot="R270"/>
+<instance part="Q1" gate="G$1" x="741.68" y="-629.92" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="746.76" y="-629.92" size="1.778" layer="95"/>
+<attribute name="VALUE" x="746.76" y="-632.46" size="1.778" layer="96"/>
 </instance>
-<instance part="5V" gate="G$1" x="690.88" y="-647.7" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="693.42" y="-647.7" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="693.42" y="-648.208" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="Q2" gate="G$1" x="779.78" y="-629.92" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="784.86" y="-629.92" size="1.778" layer="95"/>
+<attribute name="VALUE" x="784.86" y="-632.46" size="1.778" layer="96"/>
 </instance>
-<instance part="3V" gate="G$1" x="683.26" y="-650.24" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
-<attribute name="NAME" x="685.8" y="-650.24" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="685.8" y="-650.748" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D1" gate="G$1" x="881.38" y="-548.64" smashed="yes" rot="R270" grouprefs="SD_CARD">
+<attribute name="NAME" x="883.158" y="-546.1" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="877.697" y="-546.1" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="FRAME1" gate="G$2" x="820.42" y="-706.12" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="833.12" y="-704.85" size="2.54" layer="94"/>
-<attribute name="SHEET" x="906.78" y="-704.85" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="833.882" y="-687.07" size="2.54" layer="94"/>
+<instance part="5V" gate="G$1" x="695.96" y="-650.24" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="698.5" y="-650.24" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="698.5" y="-650.748" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="GND16" gate="1" x="718.82" y="-568.96" smashed="yes" grouprefs="REAL_TIME_CLOCK">
-<attribute name="VALUE" x="718.82" y="-569.214" size="1.778" layer="96" align="top-center"/>
+<instance part="3V" gate="G$1" x="688.34" y="-652.78" smashed="yes" grouprefs="MOSFET_CIRCUITRY">
+<attribute name="NAME" x="690.88" y="-652.78" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="690.88" y="-653.288" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="BT1" gate="G$1" x="718.82" y="-556.26" smashed="yes" rot="R270" grouprefs="REAL_TIME_CLOCK">
-<attribute name="NAME" x="712.47" y="-552.45" size="1.778" layer="95" rot="R270"/>
+<instance part="FRAME1" gate="G$2" x="830.58" y="-706.12" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="843.28" y="-704.85" size="2.54" layer="94"/>
+<attribute name="SHEET" x="916.94" y="-704.85" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="844.042" y="-687.07" size="2.54" layer="94"/>
 </instance>
-<instance part="J1" gate="A" x="810.26" y="-551.18" smashed="yes"/>
-<instance part="GND9" gate="1" x="832.866" y="-556.26" smashed="yes">
-<attribute name="VALUE" x="830.326" y="-558.8" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="749.3" y="-584.2" smashed="yes">
+<attribute name="VALUE" x="749.3" y="-584.454" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="843.28" y="-533.654" smashed="yes" rot="R270">
-<attribute name="NAME" x="845.058" y="-531.114" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="839.597" y="-531.114" size="1.778" layer="96" rot="R270"/>
+<instance part="BT1" gate="G$1" x="749.3" y="-571.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="742.95" y="-567.69" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="C2" gate="G$1" x="843.28" y="-553.72" smashed="yes">
-<attribute name="NAME" x="844.296" y="-553.085" size="1.778" layer="95"/>
-<attribute name="VALUE" x="844.296" y="-557.911" size="1.778" layer="96"/>
+<instance part="J1" gate="A" x="828.04" y="-556.26" smashed="yes"/>
+<instance part="GND17" gate="1" x="850.646" y="-561.34" smashed="yes">
+<attribute name="VALUE" x="848.106" y="-563.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="1" x="843.28" y="-568.96" smashed="yes">
-<attribute name="VALUE" x="840.74" y="-571.5" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="861.06" y="-538.734" smashed="yes" rot="R270">
+<attribute name="NAME" x="862.838" y="-536.194" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="857.377" y="-536.194" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND18" gate="1" x="787.4" y="-556.26" smashed="yes">
-<attribute name="VALUE" x="784.86" y="-558.8" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="861.06" y="-558.8" smashed="yes">
+<attribute name="NAME" x="862.076" y="-558.165" size="1.778" layer="95"/>
+<attribute name="VALUE" x="862.076" y="-562.991" size="1.778" layer="96"/>
+</instance>
+<instance part="GND18" gate="1" x="861.06" y="-574.04" smashed="yes">
+<attribute name="VALUE" x="858.52" y="-576.58" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="1" x="805.18" y="-561.34" smashed="yes">
+<attribute name="VALUE" x="802.64" y="-563.88" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9513,123 +9893,128 @@ unfilled</description>
 <nets>
 <net name="VBATT" class="0">
 <segment>
-<wire x1="675.64" y1="-627.38" x2="680.72" y2="-627.38" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="680.72" y="-627.38" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-629.92" x2="685.8" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="685.8" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="VBAT"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-614.68" x2="828.04" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-614.68" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-614.68" x2="843.28" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-614.68" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
 <net name="RTC_INT" class="0">
 <segment>
 <pinref part="RTC" gate="A" pin="!INT/SQW"/>
-<label x="629.92" y="-548.64" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="629.92" y1="-548.64" x2="635" y2="-548.64" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<label x="650.24" y="-548.64" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="650.24" y1="-548.64" x2="655.32" y2="-548.64" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 </segment>
 <segment>
-<wire x1="744.22" y1="-556.26" x2="739.14" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<label x="739.14" y="-556.26" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="764.54" y1="-556.26" x2="759.46" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<label x="759.46" y="-556.26" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="INT" gate="G$1" pin="1"/>
-<wire x1="749.3" y1="-541.02" x2="739.14" y2="-541.02" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<label x="739.14" y="-541.02" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="769.62" y1="-541.02" x2="759.46" y2="-541.02" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<label x="759.46" y="-541.02" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
 </segment>
 <segment>
 <pinref part="RTC_INT" gate="G$1" pin="2"/>
-<wire x1="690.88" y1="-637.54" x2="688.34" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="690.88" y="-637.54" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="695.96" y1="-640.08" x2="693.42" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="695.96" y="-640.08" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="GND" class="1">
 <segment>
-<wire x1="632.46" y1="-624.84" x2="622.3" y2="-624.84" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-627.38" x2="627.38" y2="-627.38" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="MS2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="GND"/>
-<wire x1="701.04" y1="-551.18" x2="708.66" y2="-551.18" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="708.66" y1="-551.18" x2="708.66" y2="-553.72" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-551.18" x2="728.98" y2="-551.18" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="728.98" y1="-551.18" x2="728.98" y2="-553.72" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="NC"/>
-<wire x1="708.66" y1="-553.72" x2="708.66" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="708.66" y1="-556.26" x2="708.66" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="708.66" y1="-558.8" x2="708.66" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="701.04" y1="-553.72" x2="708.66" y2="-553.72" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="708.66" y="-553.72" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="728.98" y1="-553.72" x2="728.98" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="728.98" y1="-556.26" x2="728.98" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="728.98" y1="-558.8" x2="728.98" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-553.72" x2="728.98" y2="-553.72" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="728.98" y="-553.72" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="NC_8"/>
-<wire x1="701.04" y1="-556.26" x2="708.66" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="708.66" y="-556.26" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-556.26" x2="728.98" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="728.98" y="-556.26" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="NC_7"/>
-<wire x1="701.04" y1="-558.8" x2="708.66" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="708.66" y="-558.8" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-558.8" x2="728.98" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="728.98" y="-558.8" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="NC_6"/>
-<wire x1="701.04" y1="-561.34" x2="708.66" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="708.66" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-561.34" x2="728.98" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="728.98" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="609.6" y1="-553.72" x2="609.6" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="629.92" y1="-553.72" x2="629.92" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="NC_5"/>
 <pinref part="RTC" gate="A" pin="NC_4"/>
 <pinref part="RTC" gate="A" pin="NC_3"/>
 <pinref part="RTC" gate="A" pin="NC_2"/>
-<wire x1="635" y1="-553.72" x2="635" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="635" y="-556.26" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="635" y1="-556.26" x2="635" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="635" y="-558.8" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="635" y1="-558.8" x2="635" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="635" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
-<wire x1="609.6" y1="-561.34" x2="635" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="655.32" y1="-553.72" x2="655.32" y2="-556.26" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="655.32" y="-556.26" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="655.32" y1="-556.26" x2="655.32" y2="-558.8" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="655.32" y="-558.8" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="655.32" y1="-558.8" x2="655.32" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="655.32" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="629.92" y1="-561.34" x2="655.32" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<junction x="609.6" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="629.92" y="-561.34" grouprefs="REAL_TIME_CLOCK"/>
 </segment>
 <segment>
-<wire x1="609.6" y1="-670.56" x2="604.52" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="614.68" y1="-673.1" x2="609.6" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="604.52" y1="-670.56" x2="604.52" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="609.6" y1="-673.1" x2="609.6" y2="-675.64" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="739.14" y1="-553.72" x2="739.14" y2="-561.34" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<pinref part="B1" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="739.14" y1="-632.46" x2="739.14" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="744.22" y1="-635" x2="744.22" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GND"/>
-<wire x1="876.3" y1="-612.14" x2="899.16" y2="-612.14" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="899.16" y1="-612.14" x2="899.16" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-612.14" x2="914.4" y2="-612.14" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="914.4" y1="-612.14" x2="914.4" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="VSS"/>
-<wire x1="883.92" y1="-558.8" x2="878.84" y2="-558.8" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-558.8" x2="891.54" y2="-558.8" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 <pinref part="MICROSD" gate="G$1" pin="GND1"/>
-<wire x1="883.92" y1="-563.88" x2="878.84" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-563.88" x2="891.54" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 <pinref part="MICROSD" gate="G$1" pin="GND"/>
-<wire x1="883.92" y1="-566.42" x2="878.84" y2="-566.42" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<wire x1="878.84" y1="-563.88" x2="878.84" y2="-566.42" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<junction x="878.84" y="-566.42" grouprefs="SD_CARD"/>
-<wire x1="878.84" y1="-558.8" x2="878.84" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<junction x="878.84" y="-563.88" grouprefs="SD_CARD"/>
-<wire x1="878.84" y1="-566.42" x2="878.84" y2="-568.96" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-566.42" x2="891.54" y2="-566.42" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="891.54" y1="-563.88" x2="891.54" y2="-566.42" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<junction x="891.54" y="-566.42" grouprefs="SD_CARD"/>
+<wire x1="891.54" y1="-558.8" x2="891.54" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<junction x="891.54" y="-563.88" grouprefs="SD_CARD"/>
+<wire x1="891.54" y1="-566.42" x2="891.54" y2="-568.96" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="868.68" y1="-563.88" x2="878.84" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="881.38" y1="-563.88" x2="891.54" y2="-563.88" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="617.22" y1="-617.22" x2="612.14" y2="-617.22" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="612.14" y1="-617.22" x2="612.14" y2="-612.14" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="622.3" y1="-619.76" x2="617.22" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="617.22" y1="-619.76" x2="617.22" y2="-614.68" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -9639,542 +10024,542 @@ unfilled</description>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="754.38" y1="-668.02" x2="759.46" y2="-668.02" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="759.46" y1="-670.56" x2="764.54" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="754.38" y1="-678.18" x2="759.46" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="759.46" y1="-680.72" x2="764.54" y2="-680.72" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="+IN" gate="G$1" pin="1"/>
-<wire x1="749.3" y1="-655.32" x2="751.84" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="751.84" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="754.38" y1="-657.86" x2="756.92" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="756.92" y="-657.86" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="OUT+" gate="G$1" pin="1"/>
-<wire x1="779.78" y1="-655.32" x2="782.32" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="782.32" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="784.86" y1="-657.86" x2="787.4" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="787.4" y="-657.86" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-<wire x1="889" y1="-660.4" x2="894.08" y2="-660.4" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="894.08" y="-660.4" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="904.24" y1="-660.4" x2="909.32" y2="-660.4" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="909.32" y="-660.4" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="777.24" y1="-635" x2="777.24" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-637.54" x2="782.32" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="CARD_DETECT1"/>
 <pinref part="MICROSD" gate="G$1" pin="CARD_DETECT"/>
-<wire x1="883.92" y1="-530.86" x2="883.92" y2="-528.32" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<wire x1="883.92" y1="-528.32" x2="876.3" y2="-528.32" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<junction x="883.92" y="-528.32" grouprefs="SD_CARD"/>
-<wire x1="876.3" y1="-528.32" x2="876.3" y2="-530.86" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-530.86" x2="896.62" y2="-528.32" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-528.32" x2="889" y2="-528.32" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<junction x="896.62" y="-528.32" grouprefs="SD_CARD"/>
+<wire x1="889" y1="-528.32" x2="889" y2="-530.86" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="BT1" gate="G$1" pin="-"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="718.82" y1="-563.88" x2="718.82" y2="-566.42" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="749.3" y1="-579.12" x2="749.3" y2="-581.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="DETECT"/>
-<wire x1="828.04" y1="-553.72" x2="832.866" y2="-553.72" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="843.28" y1="-563.88" x2="843.28" y2="-558.8" width="0.1524" layer="91"/>
-<pinref part="J1" gate="A" pin="VSS"/>
-<wire x1="828.04" y1="-563.88" x2="843.28" y2="-563.88" width="0.1524" layer="91"/>
-<wire x1="843.28" y1="-563.88" x2="843.28" y2="-566.42" width="0.1524" layer="91"/>
-<junction x="843.28" y="-563.88"/>
+<wire x1="845.82" y1="-558.8" x2="850.646" y2="-558.8" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="A" pin="DATA3/CD"/>
-<wire x1="792.48" y1="-551.18" x2="787.4" y2="-551.18" width="0.1524" layer="91"/>
-<wire x1="787.4" y1="-551.18" x2="787.4" y2="-553.72" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="861.06" y1="-568.96" x2="861.06" y2="-563.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="A" pin="VSS"/>
+<wire x1="845.82" y1="-568.96" x2="861.06" y2="-568.96" width="0.1524" layer="91"/>
+<wire x1="861.06" y1="-568.96" x2="861.06" y2="-571.5" width="0.1524" layer="91"/>
+<junction x="861.06" y="-568.96"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="A" pin="DATA3/CD"/>
+<wire x1="810.26" y1="-556.26" x2="805.18" y2="-556.26" width="0.1524" layer="91"/>
+<wire x1="805.18" y1="-556.26" x2="805.18" y2="-558.8" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="DO" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="DATA_OUT"/>
-<wire x1="883.92" y1="-538.48" x2="878.84" y2="-538.48" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<label x="878.84" y="-538.48" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-538.48" x2="891.54" y2="-538.48" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<label x="891.54" y="-538.48" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
 </segment>
 <segment>
-<wire x1="632.46" y1="-647.7" x2="627.38" y2="-647.7" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-647.7" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-650.24" x2="632.46" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-650.24" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOMISO"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-635" x2="906.78" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-635" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-635" x2="922.02" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="922.02" y="-635" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOMISO"/>
 </segment>
 </net>
 <net name="DI" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="DATA_IN"/>
-<wire x1="883.92" y1="-541.02" x2="878.84" y2="-541.02" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<label x="878.84" y="-541.02" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-541.02" x2="891.54" y2="-541.02" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<label x="891.54" y="-541.02" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
 </segment>
 <segment>
-<wire x1="632.46" y1="-645.16" x2="627.38" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-645.16" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-647.7" x2="632.46" y2="-647.7" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-647.7" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOMOSI"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-632.46" x2="906.78" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-632.46" x2="922.02" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="922.02" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOMOSI"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="SCLK"/>
-<wire x1="883.92" y1="-543.56" x2="878.84" y2="-543.56" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<label x="878.84" y="-543.56" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-543.56" x2="891.54" y2="-543.56" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<label x="891.54" y="-543.56" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
 </segment>
 <segment>
-<wire x1="632.46" y1="-642.62" x2="627.38" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-642.62" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-645.16" x2="632.46" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-645.16" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOSCK"/>
 </segment>
 <segment>
-<wire x1="876.3" y1="-629.92" x2="906.78" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="906.78" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-629.92" x2="922.02" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="922.02" y="-629.92" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOSCK"/>
 </segment>
 <segment>
 <pinref part="J1" gate="A" pin="CLK"/>
-<wire x1="792.48" y1="-541.02" x2="785.622" y2="-541.02" width="0.1524" layer="91"/>
-<label x="785.622" y="-541.02" size="1.778" layer="95"/>
+<wire x1="810.26" y1="-546.1" x2="803.402" y2="-546.1" width="0.1524" layer="91"/>
+<label x="803.402" y="-546.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS" class="0">
 <segment>
 <pinref part="MICROSD" gate="G$1" pin="CS"/>
-<wire x1="883.92" y1="-546.1" x2="878.84" y2="-546.1" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<label x="878.84" y="-546.1" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
+<wire x1="896.62" y1="-546.1" x2="891.54" y2="-546.1" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<label x="891.54" y="-546.1" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SD_CARD"/>
 </segment>
 <segment>
 <pinref part="CS" gate="G$1" pin="2"/>
-<wire x1="688.34" y1="-640.08" x2="701.04" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="701.04" y="-640.08" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="693.42" y1="-642.62" x2="706.12" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="706.12" y="-642.62" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<label x="688.34" y="-652.78" size="1.778" layer="255" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="675.64" y1="-652.78" x2="685.8" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="685.8" y1="-652.78" x2="688.34" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="685.8" y1="-652.78" x2="685.8" y2="-660.4" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="685.8" y="-652.78" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="693.42" y="-655.32" size="1.778" layer="255" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-655.32" x2="690.88" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="690.88" y1="-655.32" x2="693.42" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="690.88" y1="-655.32" x2="690.88" y2="-662.94" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="690.88" y="-655.32" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="MS2" gate="G$1" pin="GPIOSCL"/>
 </segment>
 <segment>
-<wire x1="701.04" y1="-543.56" x2="708.66" y2="-543.56" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<label x="708.66" y="-543.56" size="1.27" layer="95" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-543.56" x2="728.98" y2="-543.56" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<label x="728.98" y="-543.56" size="1.27" layer="95" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="SCL"/>
 </segment>
 <segment>
-<label x="828.04" y="-640.08" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="833.12" y1="-640.08" x2="828.04" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-640.08" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-640.08" x2="843.28" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOSCL"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<label x="685.8" y="-655.32" size="1.778" layer="255" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="675.64" y1="-655.32" x2="678.18" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="678.18" y1="-655.32" x2="685.8" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="678.18" y1="-655.32" x2="678.18" y2="-660.4" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="678.18" y="-655.32" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="690.88" y="-657.86" size="1.778" layer="255" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-657.86" x2="683.26" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="683.26" y1="-657.86" x2="690.88" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="683.26" y1="-657.86" x2="683.26" y2="-662.94" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="683.26" y="-657.86" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="MS2" gate="G$1" pin="GPIOSDA"/>
 </segment>
 <segment>
-<wire x1="701.04" y1="-546.1" x2="708.66" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<label x="708.66" y="-546.1" size="1.27" layer="95" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="721.36" y1="-546.1" x2="728.98" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<label x="728.98" y="-546.1" size="1.27" layer="95" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="SDA"/>
 </segment>
 <segment>
-<label x="828.04" y="-642.62" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
-<wire x1="833.12" y1="-642.62" x2="828.04" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-642.62" size="1.778" layer="255" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-642.62" x2="843.28" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOSDA"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="632.46" y1="-619.76" x2="607.06" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="607.06" y1="-619.76" x2="607.06" y2="-617.22" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-622.3" x2="612.14" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="612.14" y1="-622.3" x2="612.14" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <pinref part="MS2" gate="G$1" pin="3V"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="PMOS2" gate="PMOS1" pin="S"/>
-<wire x1="731.52" y1="-665.48" x2="731.52" y2="-668.02" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="736.6" y1="-668.02" x2="736.6" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="731.52" y1="-668.02" x2="731.52" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="713.74" y1="-668.02" x2="731.52" y2="-668.02" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="731.52" y="-668.02" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="736.6" y1="-670.56" x2="736.6" y2="-675.64" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="718.82" y1="-670.56" x2="736.6" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="736.6" y="-670.56" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<label x="609.6" y="-538.48" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
+<label x="629.92" y="-538.48" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="RTC" gate="A" pin="VCC"/>
-<wire x1="635" y1="-546.1" x2="609.6" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="655.32" y1="-546.1" x2="629.92" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="609.6" y1="-541.02" x2="609.6" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<junction x="609.6" y="-546.1" grouprefs="REAL_TIME_CLOCK"/>
+<wire x1="629.92" y1="-541.02" x2="629.92" y2="-546.1" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
+<junction x="629.92" y="-546.1" grouprefs="REAL_TIME_CLOCK"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="RTC" gate="A" pin="VBAT"/>
-<wire x1="718.82" y1="-548.64" x2="701.04" y2="-548.64" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
-<pinref part="BT1" gate="G$1" pin="+"/>
+<pinref part="B1" gate="G$1" pin="+"/>
+<wire x1="739.14" y1="-548.64" x2="721.36" y2="-548.64" width="0.1524" layer="91" grouprefs="REAL_TIME_CLOCK"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="675.64" y1="-647.7" x2="685.8" y2="-647.7" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-650.24" x2="690.88" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIO6"/>
 <pinref part="5V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="675.64" y1="-650.24" x2="678.18" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-652.78" x2="683.26" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIO5"/>
 <pinref part="3V" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="5VUSB" class="0">
 <segment>
-<wire x1="675.64" y1="-632.46" x2="680.72" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="680.72" y="-632.46" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-635" x2="685.8" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="685.8" y="-635" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="USB"/>
 </segment>
 <segment>
-<label x="718.82" y="-594.36" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="723.9" y="-596.9" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="718.82" y1="-594.36" x2="739.14" y2="-594.36" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="723.9" y1="-596.9" x2="744.22" y2="-596.9" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="PMOS1" gate="PMOS1" pin="S"/>
-<wire x1="751.84" y1="-609.6" x2="751.84" y2="-604.52" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="751.84" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="756.92" y1="-612.14" x2="756.92" y2="-607.06" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="756.92" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="3VRAIL" class="0">
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="3V"/>
-<wire x1="876.3" y1="-607.06" x2="896.62" y2="-607.06" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="896.62" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-607.06" x2="911.86" y2="-607.06" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="911.86" y="-607.06" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="PMOS2" gate="PMOS1" pin="D"/>
-<wire x1="731.52" y1="-683.26" x2="731.52" y2="-688.34" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="731.52" y="-688.34" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="736.6" y1="-685.8" x2="736.6" y2="-690.88" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="736.6" y="-690.88" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="3V|5V" gate="G$1" pin="1"/>
-<wire x1="848.36" y1="-657.86" x2="853.44" y2="-657.86" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="853.44" y="-657.86" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="863.6" y1="-657.86" x2="868.68" y2="-657.86" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="868.68" y="-657.86" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="777.24" y1="-678.18" x2="782.32" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="782.32" y="-678.18" size="1.9304" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-680.72" x2="787.4" y2="-680.72" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="787.4" y="-680.72" size="1.9304" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="868.68" y1="-546.1" x2="868.68" y2="-538.48" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<label x="868.68" y="-538.48" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="SD_CARD"/>
+<wire x1="881.38" y1="-546.1" x2="881.38" y2="-538.48" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<label x="881.38" y="-538.48" size="1.778" layer="95" rot="R90" xref="yes" grouprefs="SD_CARD"/>
 </segment>
 <segment>
-<label x="685.8" y="-675.64" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="690.88" y="-678.18" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="685.8" y1="-675.64" x2="685.8" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="690.88" y1="-678.18" x2="690.88" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<label x="678.18" y="-675.64" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="678.18" y1="-675.64" x2="678.18" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-678.18" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="683.26" y1="-678.18" x2="683.26" y2="-673.1" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="843.28" y1="-531.114" x2="843.28" y2="-527.812" width="0.1524" layer="91"/>
-<label x="843.28" y="-528.32" size="1.778" layer="95"/>
+<wire x1="861.06" y1="-536.194" x2="861.06" y2="-532.892" width="0.1524" layer="91"/>
+<label x="861.06" y="-533.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5VRAIL" class="0">
 <segment>
 <pinref part="PMOS1" gate="PMOS1" pin="D"/>
-<wire x1="751.84" y1="-619.76" x2="751.84" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="751.84" y="-622.3" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="756.92" y1="-622.3" x2="756.92" y2="-624.84" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="756.92" y="-624.84" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="USB"/>
-<wire x1="833.12" y1="-619.76" x2="828.04" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-619.76" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-619.76" x2="843.28" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-619.76" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="3V|5V" gate="G$1" pin="2"/>
-<wire x1="848.36" y1="-655.32" x2="853.44" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="853.44" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="863.6" y1="-655.32" x2="868.68" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="868.68" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="777.24" y1="-668.02" x2="782.32" y2="-668.02" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="782.32" y="-668.02" size="1.9304" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-670.56" x2="787.4" y2="-670.56" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="787.4" y="-670.56" size="1.9304" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="632.46" y1="-617.22" x2="627.38" y2="-617.22" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-614.68" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-619.76" x2="632.46" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-617.22" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <pinref part="MS2" gate="G$1" pin="!RESET"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="!RESET"/>
-<wire x1="876.3" y1="-604.52" x2="881.38" y2="-604.52" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-604.52" x2="896.62" y2="-604.52" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-604.52" size="1.778" layer="95" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="ARF" class="0">
 <segment>
-<wire x1="632.46" y1="-622.3" x2="624.84" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="622.3" y="-622.3" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-624.84" x2="629.92" y2="-624.84" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="627.38" y="-624.84" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="AREF"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="AREF"/>
-<wire x1="876.3" y1="-609.6" x2="881.38" y2="-609.6" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-609.6" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-609.6" x2="896.62" y2="-609.6" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-609.6" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
-<wire x1="632.46" y1="-627.38" x2="629.92" y2="-627.38" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-627.38" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-629.92" x2="635" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-629.92" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA0"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA0"/>
-<wire x1="876.3" y1="-614.68" x2="881.38" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-614.68" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-614.68" x2="896.62" y2="-614.68" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-614.68" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
-<wire x1="632.46" y1="-629.92" x2="629.92" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-629.92" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-632.46" x2="635" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-632.46" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA1"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA1"/>
-<wire x1="876.3" y1="-617.22" x2="881.38" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-617.22" x2="896.62" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<wire x1="632.46" y1="-632.46" x2="629.92" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-632.46" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-635" x2="635" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-635" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA2"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA2"/>
-<wire x1="876.3" y1="-619.76" x2="881.38" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-619.76" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-619.76" x2="896.62" y2="-619.76" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-619.76" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<wire x1="632.46" y1="-635" x2="629.92" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-635" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-637.54" x2="635" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-637.54" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA3"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA3"/>
-<wire x1="876.3" y1="-622.3" x2="881.38" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-622.3" x2="896.62" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="0RX" class="0">
 <segment>
-<wire x1="632.46" y1="-650.24" x2="629.92" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="624.84" y="-650.24" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-652.78" x2="635" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="629.92" y="-652.78" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIORX"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIORX"/>
-<wire x1="876.3" y1="-637.54" x2="881.38" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-637.54" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-637.54" x2="896.62" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-637.54" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="1TX" class="0">
 <segment>
-<wire x1="632.46" y1="-652.78" x2="629.92" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-652.78" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-655.32" x2="635" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOTX"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOTX"/>
-<wire x1="876.3" y1="-640.08" x2="881.38" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-640.08" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-640.08" x2="896.62" y2="-640.08" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-640.08" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="DFU" class="0">
 <segment>
-<wire x1="632.46" y1="-655.32" x2="629.92" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-657.86" x2="635" y2="-657.86" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-657.86" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="NC"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="NC"/>
-<wire x1="876.3" y1="-642.62" x2="881.38" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-642.62" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-642.62" x2="896.62" y2="-642.62" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-642.62" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="9" class="0">
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO9"/>
-<wire x1="833.12" y1="-632.46" x2="828.04" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-632.46" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-632.46" x2="843.28" y2="-632.46" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-632.46" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="MS2" gate="G$1" pin="GPIO9"/>
-<wire x1="675.64" y1="-645.16" x2="680.72" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="678.18" y="-645.16" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-647.7" x2="685.8" y2="-647.7" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-647.7" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="EN" class="0">
 <segment>
-<wire x1="675.64" y1="-629.92" x2="678.18" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="678.18" y="-629.92" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-632.46" x2="683.26" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-632.46" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="EN"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="EN"/>
-<wire x1="833.12" y1="-617.22" x2="830.58" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="830.58" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-617.22" x2="845.82" y2="-617.22" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="845.82" y="-617.22" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="889" y1="-655.32" x2="894.08" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="894.08" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="904.24" y1="-655.32" x2="909.32" y2="-655.32" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="909.32" y="-655.32" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO6"/>
-<wire x1="833.12" y1="-635" x2="830.58" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-635" x2="845.82" y2="-635" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO5"/>
-<wire x1="833.12" y1="-637.54" x2="830.58" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-637.54" x2="845.82" y2="-637.54" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="13" class="0">
 <segment>
-<wire x1="675.64" y1="-635" x2="678.18" y2="-635" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="678.18" y="-635" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-637.54" x2="683.26" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-637.54" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIO13"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO13"/>
-<wire x1="833.12" y1="-622.3" x2="828.04" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-622.3" x2="843.28" y2="-622.3" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-622.3" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="11" class="0">
 <segment>
-<wire x1="675.64" y1="-640.08" x2="678.18" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="678.18" y="-640.08" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-642.62" x2="683.26" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-642.62" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIO11"/>
 <pinref part="CS" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO11"/>
-<wire x1="833.12" y1="-627.38" x2="828.04" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-627.38" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-627.38" x2="843.28" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-627.38" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A4" class="0">
 <segment>
-<wire x1="632.46" y1="-637.54" x2="629.92" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-637.54" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-640.08" x2="635" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-640.08" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA4"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA4"/>
-<wire x1="876.3" y1="-624.84" x2="881.38" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-624.84" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-624.84" x2="896.62" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-624.84" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="A5" class="0">
 <segment>
-<wire x1="632.46" y1="-640.08" x2="629.92" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="627.38" y="-640.08" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="637.54" y1="-642.62" x2="635" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="632.46" y="-642.62" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="MS2" gate="G$1" pin="GPIOA5"/>
 </segment>
 <segment>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIOA5"/>
-<wire x1="876.3" y1="-627.38" x2="881.38" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="881.38" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="891.54" y1="-627.38" x2="896.62" y2="-627.38" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="896.62" y="-627.38" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="PMOS1" gate="PMOS1" pin="G"/>
-<wire x1="739.14" y1="-614.68" x2="741.68" y2="-614.68" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="739.14" y1="-614.68" x2="739.14" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="739.14" y1="-614.68" x2="739.14" y2="-604.52" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="739.14" y="-614.68" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="744.22" y1="-617.22" x2="746.76" y2="-617.22" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="744.22" y1="-617.22" x2="744.22" y2="-624.84" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="744.22" y1="-617.22" x2="744.22" y2="-607.06" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="744.22" y="-617.22" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="688.34" y1="-650.24" x2="708.66" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="708.66" y1="-650.24" x2="708.66" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="708.66" y1="-678.18" x2="713.74" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="693.42" y1="-652.78" x2="713.74" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="713.74" y1="-652.78" x2="713.74" y2="-680.72" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="713.74" y1="-680.72" x2="718.82" y2="-680.72" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="PMOS2" gate="PMOS1" pin="G"/>
-<wire x1="713.74" y1="-678.18" x2="721.36" y2="-678.18" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="718.82" y1="-680.72" x2="726.44" y2="-680.72" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="3V" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="723.9" y1="-640.08" x2="756.92" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="728.98" y1="-642.62" x2="762" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="772.16" y1="-629.92" x2="756.92" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="756.92" y1="-629.92" x2="756.92" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="777.24" y1="-632.46" x2="762" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="762" y1="-632.46" x2="762" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<junction x="718.82" y="-629.92" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="723.9" y="-632.46" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="734.06" y1="-629.92" x2="723.9" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="723.9" y1="-629.92" x2="718.82" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="708.66" y1="-629.92" x2="718.82" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="708.66" y1="-647.7" x2="708.66" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="695.96" y1="-647.7" x2="708.66" y2="-647.7" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<wire x1="723.9" y1="-640.08" x2="723.9" y2="-629.92" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="723.9" y="-629.92" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="739.14" y1="-632.46" x2="728.98" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="728.98" y1="-632.46" x2="723.9" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="713.74" y1="-632.46" x2="723.9" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="713.74" y1="-650.24" x2="713.74" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="701.04" y1="-650.24" x2="713.74" y2="-650.24" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="728.98" y1="-642.62" x2="728.98" y2="-632.46" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="728.98" y="-632.46" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="5V" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -10182,11 +10567,11 @@ unfilled</description>
 <segment>
 <pinref part="MS2" gate="G$1" pin="GPIO12"/>
 <pinref part="RTC_INT" gate="G$1" pin="1"/>
-<wire x1="680.72" y1="-637.54" x2="675.64" y2="-637.54" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="685.8" y1="-640.08" x2="680.72" y2="-640.08" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-624.84" x2="828.04" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
-<label x="828.04" y="-624.84" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-624.84" x2="843.28" y2="-624.84" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-624.84" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO12"/>
 </segment>
 </net>
@@ -10205,39 +10590,39 @@ unfilled</description>
 <net name="HIGHVOLTAGE" class="2">
 <segment>
 <pinref part="PMOS3" gate="G$1" pin="S"/>
-<wire x1="784.86" y1="-619.76" x2="787.4" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="787.4" y="-619.76" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="789.94" y1="-622.3" x2="792.48" y2="-622.3" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="792.48" y="-622.3" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="+IN" gate="G$1" pin="2"/>
-<wire x1="749.3" y1="-652.78" x2="751.84" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="751.84" y="-652.78" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="754.38" y1="-655.32" x2="756.92" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="756.92" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="777.24" y1="-594.36" x2="782.32" y2="-594.36" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="782.32" y="-594.36" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-596.9" x2="787.4" y2="-596.9" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="787.4" y="-596.9" size="1.778" layer="95" xref="yes" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="HIGHVRAIL" class="2">
 <segment>
 <pinref part="PMOS3" gate="G$1" pin="D"/>
-<wire x1="784.86" y1="-609.6" x2="787.4" y2="-609.6" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="787.4" y="-609.6" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="789.94" y1="-612.14" x2="792.48" y2="-612.14" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="792.48" y="-612.14" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="OUT+" gate="G$1" pin="2"/>
-<wire x1="779.78" y1="-652.78" x2="782.32" y2="-652.78" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="782.32" y="-652.78" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="784.86" y1="-655.32" x2="787.4" y2="-655.32" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="787.4" y="-655.32" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="PMOS3" gate="G$1" pin="G"/>
-<wire x1="777.24" y1="-622.3" x2="777.24" y2="-617.22" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-624.84" x2="782.32" y2="-619.76" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="777.24" y1="-617.22" x2="777.24" y2="-604.52" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<junction x="777.24" y="-617.22" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="782.32" y1="-619.76" x2="782.32" y2="-607.06" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<junction x="782.32" y="-619.76" grouprefs="MOSFET_CIRCUITRY"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -10245,32 +10630,32 @@ unfilled</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="868.68" y1="-551.18" x2="868.68" y2="-556.26" width="0.1524" layer="91" grouprefs="SD_CARD"/>
-<junction x="868.68" y="-556.26" grouprefs="SD_CARD"/>
+<wire x1="881.38" y1="-551.18" x2="881.38" y2="-556.26" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<junction x="881.38" y="-556.26" grouprefs="SD_CARD"/>
 <pinref part="MICROSD" gate="G$1" pin="VDD"/>
-<wire x1="868.68" y1="-556.26" x2="883.92" y2="-556.26" width="0.1524" layer="91" grouprefs="SD_CARD"/>
+<wire x1="881.38" y1="-556.26" x2="896.62" y2="-556.26" width="0.1524" layer="91" grouprefs="SD_CARD"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="843.28" y1="-551.18" x2="843.28" y2="-538.48" width="0.1524" layer="91"/>
+<wire x1="861.06" y1="-556.26" x2="861.06" y2="-543.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="A" pin="VDD"/>
-<wire x1="828.04" y1="-538.48" x2="843.28" y2="-538.48" width="0.1524" layer="91"/>
+<wire x1="845.82" y1="-543.56" x2="861.06" y2="-543.56" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="843.28" y1="-536.194" x2="843.28" y2="-538.48" width="0.1524" layer="91"/>
-<junction x="843.28" y="-538.48"/>
-<label x="833.12" y="-538.48" size="1.778" layer="95"/>
+<wire x1="861.06" y1="-541.274" x2="861.06" y2="-543.56" width="0.1524" layer="91"/>
+<junction x="861.06" y="-543.56"/>
+<label x="850.9" y="-543.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="10" class="0">
 <segment>
 <pinref part="MS2" gate="G$1" pin="GPIO10"/>
-<wire x1="675.64" y1="-642.62" x2="680.72" y2="-642.62" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
-<label x="678.18" y="-642.62" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
+<wire x1="680.72" y1="-645.16" x2="685.8" y2="-645.16" width="0.1524" layer="91" grouprefs="MOSFET_CIRCUITRY"/>
+<label x="683.26" y="-645.16" size="1.778" layer="95" grouprefs="MOSFET_CIRCUITRY"/>
 </segment>
 <segment>
-<wire x1="833.12" y1="-629.92" x2="828.04" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
+<wire x1="848.36" y1="-629.92" x2="843.28" y2="-629.92" width="0.1524" layer="91" grouprefs="CONTROLLED_LOGIC"/>
 <pinref part="FEATHERWING" gate="G$1" pin="GPIO10"/>
-<label x="828.04" y="-629.92" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
+<label x="843.28" y="-629.92" size="1.778" layer="95" grouprefs="CONTROLLED_LOGIC"/>
 </segment>
 </net>
 </nets>
