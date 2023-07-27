@@ -1,0 +1,39 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "Hypnos V3.2.brd" as of: 5/12/2021 9:57 AM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+3V,Top,0.394,1.358,0
+5V,Top,0.394,1.682,0
+B1,Bottom,0.640,1.807,0
+C1,Top,0.939,0.197,0
+C2,Top,0.465,1.822,270
+C3,Top,0.415,1.176,180
+C4,Top,0.354,1.984,180
+CS,Bottom,0.665,0.758,0
+D1,Top,0.149,0.126,180
+LED1,Top,0.858,1.602,270
+LED2,Top,0.858,1.496,270
+MICROSD,Top,0.274,0.661,0
+PMOS1,Top,0.578,1.759,270
+PMOS2,Top,0.531,1.594,180
+PMOS3,Top,0.713,2.016,180
+Q1,Top,0.354,1.817,270
+Q2,Top,0.544,1.954,0
+R1,Top,0.689,1.638,270
+R2,Top,0.689,1.437,90
+R4,Top,0.724,1.819,0
+R6,Bottom,0.627,0.452,180
+R7,Bottom,0.628,0.589,180
+R8,Top,0.831,1.675,0
+R9,Top,0.787,1.356,270
+R11,Top,0.716,1.916,180
+RTC,Top,0.545,0.903,0
+RTC_INT,Bottom,0.665,0.997,0
+TP1,Top,0.994,1.726,0
+TP2,Top,0.994,1.804,0
+U$1,Top,0.335,1.518,0
+U$2,Top,0.555,1.244,0
